@@ -1,0 +1,1056 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="virtual_nodes" attr.type="string" for="node" id="d1" />
+  <key attr.name="label" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="directed">
+    <node id="(0, 1)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(1, 2)">
+      <data key="d0">{Bcatenin_memb: 0, Ecadherin: 0}</data>
+      <data key="d1">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+    </node>
+    <node id="(1, 15)">
+      <data key="d0">{GSK3B: 0, AKT: 1}</data>
+      <data key="d1">{'GSK3B': 0, 'AKT': 1}</data>
+    </node>
+    <node id="(1, 16)">
+      <data key="d0">{TGFBR: 1, SNAI1: 1}</data>
+      <data key="d1">{'TGFBR': 1, 'SNAI1': 1}</data>
+    </node>
+    <node id="(1, 17)">
+      <data key="d0">{MEK: 1, SNAI1: 1}</data>
+      <data key="d1">{'MEK': 1, 'SNAI1': 1}</data>
+    </node>
+    <node id="(1, 18)">
+      <data key="d0">{GLI: 1}</data>
+      <data key="d1">{'GLI': 1}</data>
+    </node>
+    <node id="(1, 19)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(1, 29)">
+      <data key="d0">{GLI: 0, AKT: 0, Bcatenin_nuc: 0, SMAD: 0, TGFBR: 0, NOTCH: 0, Dest_compl: 1, TWIST1: 0, SNAI1: 0, MEK: 0, SOS_GRB2: 0, GSK3B: 1}</data>
+      <data key="d1">{'GLI': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'SMAD': 0, 'TGFBR': 0, 'NOTCH': 0, 'Dest_compl': 1, 'TWIST1': 0, 'SNAI1': 0, 'MEK': 0, 'SOS_GRB2': 0, 'GSK3B': 1}</data>
+    </node>
+    <node id="(1, 33)">
+      <data key="d0">{GLI: 0, AKT: 0, Bcatenin_nuc: 0, SMAD: 0, TGFBR: 0, NOTCH: 0, Bcatenin_memb: 1, TWIST1: 0, Ecadherin: 1, SNAI1: 0, MEK: 0, SOS_GRB2: 0, GSK3B: 1}</data>
+      <data key="d1">{'GLI': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'SMAD': 0, 'TGFBR': 0, 'NOTCH': 0, 'Bcatenin_memb': 1, 'TWIST1': 0, 'Ecadherin': 1, 'SNAI1': 0, 'MEK': 0, 'SOS_GRB2': 0, 'GSK3B': 1}</data>
+    </node>
+    <node id="(0, 39)">
+      <data key="d0">{Bcatenin_memb: 0, Ecadherin: 0}</data>
+      <data key="d1">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+    </node>
+    <node id="(39, 2)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(39, 40)">
+      <data key="d0">{GSK3B: 0, AKT: 1}</data>
+      <data key="d1">{'GSK3B': 0, 'AKT': 1}</data>
+    </node>
+    <node id="(39, 41)">
+      <data key="d0">{GLI: 1}</data>
+      <data key="d1">{'GLI': 1}</data>
+    </node>
+    <node id="(39, 42)">
+      <data key="d0">{TGFBR: 1, SNAI1: 1}</data>
+      <data key="d1">{'TGFBR': 1, 'SNAI1': 1}</data>
+    </node>
+    <node id="(39, 43)">
+      <data key="d0">{MEK: 1, SNAI1: 1}</data>
+      <data key="d1">{'MEK': 1, 'SNAI1': 1}</data>
+    </node>
+    <node id="(39, 44)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(39, 51)">
+      <data key="d0">{GLI: 0, AKT: 0, Bcatenin_nuc: 0, SMAD: 0, TGFBR: 0, NOTCH: 0, Dest_compl: 1, TWIST1: 0, SNAI1: 0, MEK: 0, SOS_GRB2: 0, GSK3B: 1}</data>
+      <data key="d1">{'GLI': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'SMAD': 0, 'TGFBR': 0, 'NOTCH': 0, 'Dest_compl': 1, 'TWIST1': 0, 'SNAI1': 0, 'MEK': 0, 'SOS_GRB2': 0, 'GSK3B': 1}</data>
+    </node>
+    <node id="(0, 55)">
+      <data key="d0">{GSK3B: 0, AKT: 1}</data>
+      <data key="d1">{'GSK3B': 0, 'AKT': 1}</data>
+    </node>
+    <node id="(0, 56)">
+      <data key="d0">{TGFBR: 1, SNAI1: 1}</data>
+      <data key="d1">{'TGFBR': 1, 'SNAI1': 1}</data>
+    </node>
+    <node id="(0, 57)">
+      <data key="d0">{MEK: 1, SNAI1: 1}</data>
+      <data key="d1">{'MEK': 1, 'SNAI1': 1}</data>
+    </node>
+    <node id="(0, 58)">
+      <data key="d0">{GLI: 1}</data>
+      <data key="d1">{'GLI': 1}</data>
+    </node>
+    <node id="(0, 59)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(59, 19)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(59, 44)">
+      <data key="d0">{Bcatenin_memb: 0, Ecadherin: 0}</data>
+      <data key="d1">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+    </node>
+    <node id="(59, 60)">
+      <data key="d0">{GSK3B: 0, AKT: 1}</data>
+      <data key="d1">{'GSK3B': 0, 'AKT': 1}</data>
+    </node>
+    <node id="(59, 61)">
+      <data key="d0">{MEK: 1, SNAI1: 1}</data>
+      <data key="d1">{'MEK': 1, 'SNAI1': 1}</data>
+    </node>
+    <node id="(59, 62)">
+      <data key="d0">{TGFBR: 1, SNAI1: 1}</data>
+      <data key="d1">{'TGFBR': 1, 'SNAI1': 1}</data>
+    </node>
+    <node id="(59, 63)">
+      <data key="d0">{GLI: 1}</data>
+      <data key="d1">{'GLI': 1}</data>
+    </node>
+    <node id="(59, 64)">
+      <data key="d0">{GLI: 0, AKT: 0, Bcatenin_nuc: 0, SMAD: 0, TGFBR: 0, NOTCH: 0, Dest_compl: 1, TWIST1: 0, SNAI1: 0, MEK: 0, SOS_GRB2: 0, GSK3B: 1}</data>
+      <data key="d1">{'GLI': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'SMAD': 0, 'TGFBR': 0, 'NOTCH': 0, 'Dest_compl': 1, 'TWIST1': 0, 'SNAI1': 0, 'MEK': 0, 'SOS_GRB2': 0, 'GSK3B': 1}</data>
+    </node>
+    <node id="(59, 68)">
+      <data key="d0">{GLI: 0, AKT: 0, Bcatenin_nuc: 0, SMAD: 0, TGFBR: 0, NOTCH: 0, Bcatenin_memb: 1, TWIST1: 0, Ecadherin: 1, SNAI1: 0, MEK: 0, SOS_GRB2: 0, GSK3B: 1}</data>
+      <data key="d1">{'GLI': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'SMAD': 0, 'TGFBR': 0, 'NOTCH': 0, 'Bcatenin_memb': 1, 'TWIST1': 0, 'Ecadherin': 1, 'SNAI1': 0, 'MEK': 0, 'SOS_GRB2': 0, 'GSK3B': 1}</data>
+    </node>
+    <node id="(0, 74)">
+      <data key="d0">{GLI: 0, AKT: 0, Bcatenin_nuc: 0, SMAD: 0, TGFBR: 0, NOTCH: 0, Dest_compl: 1, TWIST1: 0, SNAI1: 0, MEK: 0, SOS_GRB2: 0, GSK3B: 1}</data>
+      <data key="d1">{'GLI': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'SMAD': 0, 'TGFBR': 0, 'NOTCH': 0, 'Dest_compl': 1, 'TWIST1': 0, 'SNAI1': 0, 'MEK': 0, 'SOS_GRB2': 0, 'GSK3B': 1}</data>
+    </node>
+    <node id="(74, 29)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(74, 51)">
+      <data key="d0">{Bcatenin_memb: 0, Ecadherin: 0}</data>
+      <data key="d1">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+    </node>
+    <node id="(74, 64)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(74, 75)">
+      <data key="d0">{AXIN2: 0}</data>
+      <data key="d1">{'AXIN2': 0}</data>
+    </node>
+    <node id="(74, 79)">
+      <data key="d0">{SNAI2: 0}</data>
+      <data key="d1">{'SNAI2': 0}</data>
+    </node>
+    <node id="(74, 81)">
+      <data key="d0">{Bcatenin_memb: 1, Ecadherin: 1}</data>
+      <data key="d1">{'Bcatenin_memb': 1, 'Ecadherin': 1}</data>
+    </node>
+    <node id="(0, 82)">
+      <data key="d0">{GLI: 0, AKT: 0, Bcatenin_nuc: 0, SMAD: 0, TGFBR: 0, NOTCH: 0, Bcatenin_memb: 1, TWIST1: 0, Ecadherin: 1, SNAI1: 0, MEK: 0, SOS_GRB2: 0, GSK3B: 1}</data>
+      <data key="d1">{'GLI': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'SMAD': 0, 'TGFBR': 0, 'NOTCH': 0, 'Bcatenin_memb': 1, 'TWIST1': 0, 'Ecadherin': 1, 'SNAI1': 0, 'MEK': 0, 'SOS_GRB2': 0, 'GSK3B': 1}</data>
+    </node>
+    <node id="(82, 33)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(82, 68)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(82, 83)">
+      <data key="d0">{Dest_compl: 1}</data>
+      <data key="d1">{'Dest_compl': 1}</data>
+    </node>
+    <node id="(82, 87)">
+      <data key="d0">{SNAI2: 0}</data>
+      <data key="d1">{'SNAI2': 0}</data>
+    </node>
+    <node id="(82, 91)">
+      <data key="d0">{Dest_compl: 0}</data>
+      <data key="d1">{'Dest_compl': 0}</data>
+    </node>
+    <node id="(82, 93)">
+      <data key="d0">{AXIN2: 0}</data>
+      <data key="d1">{'AXIN2': 0}</data>
+    </node>
+    <node id="(2, 3)">
+      <data key="d0">{GSK3B: 0, AKT: 1}</data>
+      <data key="d1">{'GSK3B': 0, 'AKT': 1}</data>
+    </node>
+    <node id="(2, 4)">
+      <data key="d0">{GLI: 1}</data>
+      <data key="d1">{'GLI': 1}</data>
+    </node>
+    <node id="(2, 5)">
+      <data key="d0">{MEK: 1, SNAI1: 1}</data>
+      <data key="d1">{'MEK': 1, 'SNAI1': 1}</data>
+    </node>
+    <node id="(2, 6)">
+      <data key="d0">{TGFBR: 1, SNAI1: 1}</data>
+      <data key="d1">{'TGFBR': 1, 'SNAI1': 1}</data>
+    </node>
+    <node id="(2, 7)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(2, 13)">
+      <data key="d0">{GLI: 0, AKT: 0, Bcatenin_nuc: 0, SMAD: 0, TGFBR: 0, NOTCH: 0, Dest_compl: 1, TWIST1: 0, SNAI1: 0, MEK: 0, SOS_GRB2: 0, GSK3B: 1}</data>
+      <data key="d1">{'GLI': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'SMAD': 0, 'TGFBR': 0, 'NOTCH': 0, 'Dest_compl': 1, 'TWIST1': 0, 'SNAI1': 0, 'MEK': 0, 'SOS_GRB2': 0, 'GSK3B': 1}</data>
+    </node>
+    <node id="(19, 7)">
+      <data key="d0">{Bcatenin_memb: 0, Ecadherin: 0}</data>
+      <data key="d1">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+    </node>
+    <node id="(19, 20)">
+      <data key="d0">{GSK3B: 0, AKT: 1}</data>
+      <data key="d1">{'GSK3B': 0, 'AKT': 1}</data>
+    </node>
+    <node id="(19, 21)">
+      <data key="d0">{TGFBR: 1, SNAI1: 1}</data>
+      <data key="d1">{'TGFBR': 1, 'SNAI1': 1}</data>
+    </node>
+    <node id="(19, 22)">
+      <data key="d0">{MEK: 1, SNAI1: 1}</data>
+      <data key="d1">{'MEK': 1, 'SNAI1': 1}</data>
+    </node>
+    <node id="(19, 23)">
+      <data key="d0">{GLI: 1}</data>
+      <data key="d1">{'GLI': 1}</data>
+    </node>
+    <node id="(19, 24)">
+      <data key="d0">{GLI: 0, AKT: 0, Bcatenin_nuc: 0, SMAD: 0, TGFBR: 0, NOTCH: 0, Dest_compl: 1, TWIST1: 0, SNAI1: 0, MEK: 0, SOS_GRB2: 0, GSK3B: 1}</data>
+      <data key="d1">{'GLI': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'SMAD': 0, 'TGFBR': 0, 'NOTCH': 0, 'Dest_compl': 1, 'TWIST1': 0, 'SNAI1': 0, 'MEK': 0, 'SOS_GRB2': 0, 'GSK3B': 1}</data>
+    </node>
+    <node id="(19, 26)">
+      <data key="d0">{GLI: 0, AKT: 0, Bcatenin_nuc: 0, SMAD: 0, TGFBR: 0, NOTCH: 0, Bcatenin_memb: 1, TWIST1: 0, Ecadherin: 1, SNAI1: 0, MEK: 0, SOS_GRB2: 0, GSK3B: 1}</data>
+      <data key="d1">{'GLI': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'SMAD': 0, 'TGFBR': 0, 'NOTCH': 0, 'Bcatenin_memb': 1, 'TWIST1': 0, 'Ecadherin': 1, 'SNAI1': 0, 'MEK': 0, 'SOS_GRB2': 0, 'GSK3B': 1}</data>
+    </node>
+    <node id="(29, 13)">
+      <data key="d0">{Bcatenin_memb: 0, Ecadherin: 0}</data>
+      <data key="d1">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+    </node>
+    <node id="(29, 24)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(29, 30)">
+      <data key="d0">{SNAI2: 0}</data>
+      <data key="d1">{'SNAI2': 0}</data>
+    </node>
+    <node id="(29, 32)">
+      <data key="d0">{Bcatenin_memb: 1, Ecadherin: 1}</data>
+      <data key="d1">{'Bcatenin_memb': 1, 'Ecadherin': 1}</data>
+    </node>
+    <node id="(33, 26)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(33, 34)">
+      <data key="d0">{Dest_compl: 1}</data>
+      <data key="d1">{'Dest_compl': 1}</data>
+    </node>
+    <node id="(33, 36)">
+      <data key="d0">{SNAI2: 0}</data>
+      <data key="d1">{'SNAI2': 0}</data>
+    </node>
+    <node id="(33, 38)">
+      <data key="d0">{Dest_compl: 0}</data>
+      <data key="d1">{'Dest_compl': 0}</data>
+    </node>
+    <node id="(7, 8)">
+      <data key="d0">{GSK3B: 0, AKT: 1}</data>
+      <data key="d1">{'GSK3B': 0, 'AKT': 1}</data>
+    </node>
+    <node id="(7, 9)">
+      <data key="d0">{GLI: 1}</data>
+      <data key="d1">{'GLI': 1}</data>
+    </node>
+    <node id="(7, 10)">
+      <data key="d0">{MEK: 1, SNAI1: 1}</data>
+      <data key="d1">{'MEK': 1, 'SNAI1': 1}</data>
+    </node>
+    <node id="(7, 11)">
+      <data key="d0">{TGFBR: 1, SNAI1: 1}</data>
+      <data key="d1">{'TGFBR': 1, 'SNAI1': 1}</data>
+    </node>
+    <node id="(7, 12)">
+      <data key="d0">{GLI: 0, AKT: 0, Bcatenin_nuc: 0, SMAD: 0, TGFBR: 0, NOTCH: 0, Dest_compl: 1, TWIST1: 0, SNAI1: 0, MEK: 0, SOS_GRB2: 0, GSK3B: 1}</data>
+      <data key="d1">{'GLI': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'SMAD': 0, 'TGFBR': 0, 'NOTCH': 0, 'Dest_compl': 1, 'TWIST1': 0, 'SNAI1': 0, 'MEK': 0, 'SOS_GRB2': 0, 'GSK3B': 1}</data>
+    </node>
+    <node id="(13, 12)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(13, 14)">
+      <data key="d0">{SNAI2: 0}</data>
+      <data key="d1">{'SNAI2': 0}</data>
+    </node>
+    <node id="(24, 12)">
+      <data key="d0">{Bcatenin_memb: 0, Ecadherin: 0}</data>
+      <data key="d1">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+    </node>
+    <node id="(24, 25)">
+      <data key="d0">{Bcatenin_memb: 1, Ecadherin: 1}</data>
+      <data key="d1">{'Bcatenin_memb': 1, 'Ecadherin': 1}</data>
+    </node>
+    <node id="(26, 27)">
+      <data key="d0">{Dest_compl: 1}</data>
+      <data key="d1">{'Dest_compl': 1}</data>
+    </node>
+    <node id="(26, 28)">
+      <data key="d0">{Dest_compl: 0}</data>
+      <data key="d1">{'Dest_compl': 0}</data>
+    </node>
+    <node id="(30, 14)">
+      <data key="d0">{Bcatenin_memb: 0, Ecadherin: 0}</data>
+      <data key="d1">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+    </node>
+    <node id="(30, 31)">
+      <data key="d0">{Bcatenin_memb: 1, Ecadherin: 1}</data>
+      <data key="d1">{'Bcatenin_memb': 1, 'Ecadherin': 1}</data>
+    </node>
+    <node id="(32, 25)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(32, 31)">
+      <data key="d0">{SNAI2: 0}</data>
+      <data key="d1">{'SNAI2': 0}</data>
+    </node>
+    <node id="(34, 27)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(34, 35)">
+      <data key="d0">{SNAI2: 0}</data>
+      <data key="d1">{'SNAI2': 0}</data>
+    </node>
+    <node id="(36, 35)">
+      <data key="d0">{Dest_compl: 1}</data>
+      <data key="d1">{'Dest_compl': 1}</data>
+    </node>
+    <node id="(36, 37)">
+      <data key="d0">{Dest_compl: 0}</data>
+      <data key="d1">{'Dest_compl': 0}</data>
+    </node>
+    <node id="(38, 28)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(38, 37)">
+      <data key="d0">{SNAI2: 0}</data>
+      <data key="d1">{'SNAI2': 0}</data>
+    </node>
+    <node id="(44, 7)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(44, 45)">
+      <data key="d0">{GSK3B: 0, AKT: 1}</data>
+      <data key="d1">{'GSK3B': 0, 'AKT': 1}</data>
+    </node>
+    <node id="(44, 46)">
+      <data key="d0">{TGFBR: 1, SNAI1: 1}</data>
+      <data key="d1">{'TGFBR': 1, 'SNAI1': 1}</data>
+    </node>
+    <node id="(44, 47)">
+      <data key="d0">{MEK: 1, SNAI1: 1}</data>
+      <data key="d1">{'MEK': 1, 'SNAI1': 1}</data>
+    </node>
+    <node id="(44, 48)">
+      <data key="d0">{GLI: 1}</data>
+      <data key="d1">{'GLI': 1}</data>
+    </node>
+    <node id="(44, 49)">
+      <data key="d0">{GLI: 0, AKT: 0, Bcatenin_nuc: 0, SMAD: 0, TGFBR: 0, NOTCH: 0, Dest_compl: 1, TWIST1: 0, SNAI1: 0, MEK: 0, SOS_GRB2: 0, GSK3B: 1}</data>
+      <data key="d1">{'GLI': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'SMAD': 0, 'TGFBR': 0, 'NOTCH': 0, 'Dest_compl': 1, 'TWIST1': 0, 'SNAI1': 0, 'MEK': 0, 'SOS_GRB2': 0, 'GSK3B': 1}</data>
+    </node>
+    <node id="(51, 13)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(51, 49)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(51, 52)">
+      <data key="d0">{SNAI2: 0}</data>
+      <data key="d1">{'SNAI2': 0}</data>
+    </node>
+    <node id="(51, 54)">
+      <data key="d0">{AXIN2: 0}</data>
+      <data key="d1">{'AXIN2': 0}</data>
+    </node>
+    <node id="(49, 12)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(49, 50)">
+      <data key="d0">{AXIN2: 0}</data>
+      <data key="d1">{'AXIN2': 0}</data>
+    </node>
+    <node id="(52, 14)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(52, 53)">
+      <data key="d0">{AXIN2: 0}</data>
+      <data key="d1">{'AXIN2': 0}</data>
+    </node>
+    <node id="(54, 50)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(54, 53)">
+      <data key="d0">{SNAI2: 0}</data>
+      <data key="d1">{'SNAI2': 0}</data>
+    </node>
+    <node id="(64, 24)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(64, 49)">
+      <data key="d0">{Bcatenin_memb: 0, Ecadherin: 0}</data>
+      <data key="d1">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+    </node>
+    <node id="(64, 65)">
+      <data key="d0">{AXIN2: 0}</data>
+      <data key="d1">{'AXIN2': 0}</data>
+    </node>
+    <node id="(64, 67)">
+      <data key="d0">{Bcatenin_memb: 1, Ecadherin: 1}</data>
+      <data key="d1">{'Bcatenin_memb': 1, 'Ecadherin': 1}</data>
+    </node>
+    <node id="(68, 26)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(68, 69)">
+      <data key="d0">{Dest_compl: 1}</data>
+      <data key="d1">{'Dest_compl': 1}</data>
+    </node>
+    <node id="(68, 71)">
+      <data key="d0">{Dest_compl: 0}</data>
+      <data key="d1">{'Dest_compl': 0}</data>
+    </node>
+    <node id="(68, 73)">
+      <data key="d0">{AXIN2: 0}</data>
+      <data key="d1">{'AXIN2': 0}</data>
+    </node>
+    <node id="(65, 50)">
+      <data key="d0">{Bcatenin_memb: 0, Ecadherin: 0}</data>
+      <data key="d1">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+    </node>
+    <node id="(65, 66)">
+      <data key="d0">{Bcatenin_memb: 1, Ecadherin: 1}</data>
+      <data key="d1">{'Bcatenin_memb': 1, 'Ecadherin': 1}</data>
+    </node>
+    <node id="(67, 25)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(67, 66)">
+      <data key="d0">{AXIN2: 0}</data>
+      <data key="d1">{'AXIN2': 0}</data>
+    </node>
+    <node id="(69, 27)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(69, 70)">
+      <data key="d0">{AXIN2: 0}</data>
+      <data key="d1">{'AXIN2': 0}</data>
+    </node>
+    <node id="(71, 28)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(71, 72)">
+      <data key="d0">{AXIN2: 0}</data>
+      <data key="d1">{'AXIN2': 0}</data>
+    </node>
+    <node id="(73, 70)">
+      <data key="d0">{Dest_compl: 1}</data>
+      <data key="d1">{'Dest_compl': 1}</data>
+    </node>
+    <node id="(73, 72)">
+      <data key="d0">{Dest_compl: 0}</data>
+      <data key="d1">{'Dest_compl': 0}</data>
+    </node>
+    <node id="(75, 54)">
+      <data key="d0">{Bcatenin_memb: 0, Ecadherin: 0}</data>
+      <data key="d1">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+    </node>
+    <node id="(75, 65)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(75, 76)">
+      <data key="d0">{SNAI2: 0}</data>
+      <data key="d1">{'SNAI2': 0}</data>
+    </node>
+    <node id="(75, 78)">
+      <data key="d0">{Bcatenin_memb: 1, Ecadherin: 1}</data>
+      <data key="d1">{'Bcatenin_memb': 1, 'Ecadherin': 1}</data>
+    </node>
+    <node id="(79, 30)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(79, 52)">
+      <data key="d0">{Bcatenin_memb: 0, Ecadherin: 0}</data>
+      <data key="d1">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+    </node>
+    <node id="(79, 76)">
+      <data key="d0">{AXIN2: 0}</data>
+      <data key="d1">{'AXIN2': 0}</data>
+    </node>
+    <node id="(79, 80)">
+      <data key="d0">{Bcatenin_memb: 1, Ecadherin: 1}</data>
+      <data key="d1">{'Bcatenin_memb': 1, 'Ecadherin': 1}</data>
+    </node>
+    <node id="(81, 32)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(81, 67)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(81, 78)">
+      <data key="d0">{AXIN2: 0}</data>
+      <data key="d1">{'AXIN2': 0}</data>
+    </node>
+    <node id="(81, 80)">
+      <data key="d0">{SNAI2: 0}</data>
+      <data key="d1">{'SNAI2': 0}</data>
+    </node>
+    <node id="(76, 53)">
+      <data key="d0">{Bcatenin_memb: 0, Ecadherin: 0}</data>
+      <data key="d1">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+    </node>
+    <node id="(76, 77)">
+      <data key="d0">{Bcatenin_memb: 1, Ecadherin: 1}</data>
+      <data key="d1">{'Bcatenin_memb': 1, 'Ecadherin': 1}</data>
+    </node>
+    <node id="(78, 66)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(78, 77)">
+      <data key="d0">{SNAI2: 0}</data>
+      <data key="d1">{'SNAI2': 0}</data>
+    </node>
+    <node id="(80, 31)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(80, 77)">
+      <data key="d0">{AXIN2: 0}</data>
+      <data key="d1">{'AXIN2': 0}</data>
+    </node>
+    <node id="(83, 34)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(83, 69)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(83, 84)">
+      <data key="d0">{SNAI2: 0}</data>
+      <data key="d1">{'SNAI2': 0}</data>
+    </node>
+    <node id="(83, 86)">
+      <data key="d0">{AXIN2: 0}</data>
+      <data key="d1">{'AXIN2': 0}</data>
+    </node>
+    <node id="(87, 36)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(87, 84)">
+      <data key="d0">{Dest_compl: 1}</data>
+      <data key="d1">{'Dest_compl': 1}</data>
+    </node>
+    <node id="(87, 88)">
+      <data key="d0">{Dest_compl: 0}</data>
+      <data key="d1">{'Dest_compl': 0}</data>
+    </node>
+    <node id="(87, 90)">
+      <data key="d0">{AXIN2: 0}</data>
+      <data key="d1">{'AXIN2': 0}</data>
+    </node>
+    <node id="(91, 38)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(91, 71)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(91, 88)">
+      <data key="d0">{SNAI2: 0}</data>
+      <data key="d1">{'SNAI2': 0}</data>
+    </node>
+    <node id="(91, 92)">
+      <data key="d0">{AXIN2: 0}</data>
+      <data key="d1">{'AXIN2': 0}</data>
+    </node>
+    <node id="(93, 73)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(93, 86)">
+      <data key="d0">{Dest_compl: 1}</data>
+      <data key="d1">{'Dest_compl': 1}</data>
+    </node>
+    <node id="(93, 90)">
+      <data key="d0">{SNAI2: 0}</data>
+      <data key="d1">{'SNAI2': 0}</data>
+    </node>
+    <node id="(93, 92)">
+      <data key="d0">{Dest_compl: 0}</data>
+      <data key="d1">{'Dest_compl': 0}</data>
+    </node>
+    <node id="(84, 35)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(84, 85)">
+      <data key="d0">{AXIN2: 0}</data>
+      <data key="d1">{'AXIN2': 0}</data>
+    </node>
+    <node id="(86, 70)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(86, 85)">
+      <data key="d0">{SNAI2: 0}</data>
+      <data key="d1">{'SNAI2': 0}</data>
+    </node>
+    <node id="(88, 37)">
+      <data key="d0">{AXIN2: 1}</data>
+      <data key="d1">{'AXIN2': 1}</data>
+    </node>
+    <node id="(88, 89)">
+      <data key="d0">{AXIN2: 0}</data>
+      <data key="d1">{'AXIN2': 0}</data>
+    </node>
+    <node id="(90, 85)">
+      <data key="d0">{Dest_compl: 1}</data>
+      <data key="d1">{'Dest_compl': 1}</data>
+    </node>
+    <node id="(90, 89)">
+      <data key="d0">{Dest_compl: 0}</data>
+      <data key="d1">{'Dest_compl': 0}</data>
+    </node>
+    <node id="(92, 72)">
+      <data key="d0">{SNAI2: 1}</data>
+      <data key="d1">{'SNAI2': 1}</data>
+    </node>
+    <node id="(92, 89)">
+      <data key="d0">{SNAI2: 0}</data>
+      <data key="d1">{'SNAI2': 0}</data>
+    </node>
+    <node id="A0">
+      <data key="d0">{AKT: 1, AXIN2: 1, Bcatenin_memb: 0, Bcatenin_nuc: 1, Dest_compl: 0, Ecadherin: 0, GLI: 1, GSK3B: 0, MEK: 1, NOTCH: 1, SMAD: 1, SNAI1: 1, SNAI2: 1, SOS_GRB2: 0, TGFBR: 1, TWIST1: 1, ZEB1: 1, ZEB2: 1, miR200: 0}</data>
+      <data key="d1">{'AKT': 1, 'AXIN2': 1, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 1, 'Dest_compl': 0, 'Ecadherin': 0, 'GLI': 1, 'GSK3B': 0, 'MEK': 1, 'NOTCH': 1, 'SMAD': 1, 'SNAI1': 1, 'SNAI2': 1, 'SOS_GRB2': 0, 'TGFBR': 1, 'TWIST1': 1, 'ZEB1': 1, 'ZEB2': 1, 'miR200': 0}</data>
+    </node>
+    <node id="A1">
+      <data key="d0">{AKT: 0, AXIN2: 1, Bcatenin_memb: 0, Bcatenin_nuc: 0, Dest_compl: 1, Ecadherin: 0, GLI: 0, GSK3B: 1, MEK: 0, NOTCH: 0, SMAD: 0, SNAI1: 0, SNAI2: 1, SOS_GRB2: 0, TGFBR: 0, TWIST1: 0, ZEB1: 0, ZEB2: 0, miR200: 1}</data>
+      <data key="d1">{'AKT': 0, 'AXIN2': 1, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'Ecadherin': 0, 'GLI': 0, 'GSK3B': 1, 'MEK': 0, 'NOTCH': 0, 'SMAD': 0, 'SNAI1': 0, 'SNAI2': 1, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1': 0, 'ZEB1': 0, 'ZEB2': 0, 'miR200': 1}</data>
+    </node>
+    <node id="A2">
+      <data key="d0">{AKT: 0, AXIN2: 1, Bcatenin_memb: 0, Bcatenin_nuc: 0, Dest_compl: 1, Ecadherin: 0, GLI: 0, GSK3B: 1, MEK: 0, NOTCH: 0, SMAD: 0, SNAI1: 0, SNAI2: 0, SOS_GRB2: 0, TGFBR: 0, TWIST1: 0, ZEB1: 0, ZEB2: 0, miR200: 1}</data>
+      <data key="d1">{'AKT': 0, 'AXIN2': 1, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'Ecadherin': 0, 'GLI': 0, 'GSK3B': 1, 'MEK': 0, 'NOTCH': 0, 'SMAD': 0, 'SNAI1': 0, 'SNAI2': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1': 0, 'ZEB1': 0, 'ZEB2': 0, 'miR200': 1}</data>
+    </node>
+    <node id="A3">
+      <data key="d0">{AKT: 0, AXIN2: 1, Bcatenin_memb: 1, Bcatenin_nuc: 0, Dest_compl: 1, Ecadherin: 1, GLI: 0, GSK3B: 1, MEK: 0, NOTCH: 0, SMAD: 0, SNAI1: 0, SNAI2: 1, SOS_GRB2: 0, TGFBR: 0, TWIST1: 0, ZEB1: 0, ZEB2: 0, miR200: 1}</data>
+      <data key="d1">{'AKT': 0, 'AXIN2': 1, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'Ecadherin': 1, 'GLI': 0, 'GSK3B': 1, 'MEK': 0, 'NOTCH': 0, 'SMAD': 0, 'SNAI1': 0, 'SNAI2': 1, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1': 0, 'ZEB1': 0, 'ZEB2': 0, 'miR200': 1}</data>
+    </node>
+    <node id="A4">
+      <data key="d0">{AKT: 0, AXIN2: 1, Bcatenin_memb: 1, Bcatenin_nuc: 0, Dest_compl: 0, Ecadherin: 1, GLI: 0, GSK3B: 1, MEK: 0, NOTCH: 0, SMAD: 0, SNAI1: 0, SNAI2: 1, SOS_GRB2: 0, TGFBR: 0, TWIST1: 0, ZEB1: 0, ZEB2: 0, miR200: 1}</data>
+      <data key="d1">{'AKT': 0, 'AXIN2': 1, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Dest_compl': 0, 'Ecadherin': 1, 'GLI': 0, 'GSK3B': 1, 'MEK': 0, 'NOTCH': 0, 'SMAD': 0, 'SNAI1': 0, 'SNAI2': 1, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1': 0, 'ZEB1': 0, 'ZEB2': 0, 'miR200': 1}</data>
+    </node>
+    <node id="A5">
+      <data key="d0">{AKT: 0, AXIN2: 1, Bcatenin_memb: 1, Bcatenin_nuc: 0, Dest_compl: 1, Ecadherin: 1, GLI: 0, GSK3B: 1, MEK: 0, NOTCH: 0, SMAD: 0, SNAI1: 0, SNAI2: 0, SOS_GRB2: 0, TGFBR: 0, TWIST1: 0, ZEB1: 0, ZEB2: 0, miR200: 1}</data>
+      <data key="d1">{'AKT': 0, 'AXIN2': 1, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'Ecadherin': 1, 'GLI': 0, 'GSK3B': 1, 'MEK': 0, 'NOTCH': 0, 'SMAD': 0, 'SNAI1': 0, 'SNAI2': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1': 0, 'ZEB1': 0, 'ZEB2': 0, 'miR200': 1}</data>
+    </node>
+    <node id="A6">
+      <data key="d0">{AKT: 0, AXIN2: 1, Bcatenin_memb: 1, Bcatenin_nuc: 0, Dest_compl: 0, Ecadherin: 1, GLI: 0, GSK3B: 1, MEK: 0, NOTCH: 0, SMAD: 0, SNAI1: 0, SNAI2: 0, SOS_GRB2: 0, TGFBR: 0, TWIST1: 0, ZEB1: 0, ZEB2: 0, miR200: 1}</data>
+      <data key="d1">{'AKT': 0, 'AXIN2': 1, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Dest_compl': 0, 'Ecadherin': 1, 'GLI': 0, 'GSK3B': 1, 'MEK': 0, 'NOTCH': 0, 'SMAD': 0, 'SNAI1': 0, 'SNAI2': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1': 0, 'ZEB1': 0, 'ZEB2': 0, 'miR200': 1}</data>
+    </node>
+    <node id="A7">
+      <data key="d0">{AKT: 0, AXIN2: 0, Bcatenin_memb: 0, Bcatenin_nuc: 0, Dest_compl: 1, Ecadherin: 0, GLI: 0, GSK3B: 1, MEK: 0, NOTCH: 0, SMAD: 0, SNAI1: 0, SNAI2: 1, SOS_GRB2: 0, TGFBR: 0, TWIST1: 0, ZEB1: 0, ZEB2: 0, miR200: 1}</data>
+      <data key="d1">{'AKT': 0, 'AXIN2': 0, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'Ecadherin': 0, 'GLI': 0, 'GSK3B': 1, 'MEK': 0, 'NOTCH': 0, 'SMAD': 0, 'SNAI1': 0, 'SNAI2': 1, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1': 0, 'ZEB1': 0, 'ZEB2': 0, 'miR200': 1}</data>
+    </node>
+    <node id="A8">
+      <data key="d0">{AKT: 0, AXIN2: 0, Bcatenin_memb: 0, Bcatenin_nuc: 0, Dest_compl: 1, Ecadherin: 0, GLI: 0, GSK3B: 1, MEK: 0, NOTCH: 0, SMAD: 0, SNAI1: 0, SNAI2: 0, SOS_GRB2: 0, TGFBR: 0, TWIST1: 0, ZEB1: 0, ZEB2: 0, miR200: 1}</data>
+      <data key="d1">{'AKT': 0, 'AXIN2': 0, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'Ecadherin': 0, 'GLI': 0, 'GSK3B': 1, 'MEK': 0, 'NOTCH': 0, 'SMAD': 0, 'SNAI1': 0, 'SNAI2': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1': 0, 'ZEB1': 0, 'ZEB2': 0, 'miR200': 1}</data>
+    </node>
+    <node id="A9">
+      <data key="d0">{AKT: 0, AXIN2: 0, Bcatenin_memb: 1, Bcatenin_nuc: 0, Dest_compl: 1, Ecadherin: 1, GLI: 0, GSK3B: 1, MEK: 0, NOTCH: 0, SMAD: 0, SNAI1: 0, SNAI2: 1, SOS_GRB2: 0, TGFBR: 0, TWIST1: 0, ZEB1: 0, ZEB2: 0, miR200: 1}</data>
+      <data key="d1">{'AKT': 0, 'AXIN2': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'Ecadherin': 1, 'GLI': 0, 'GSK3B': 1, 'MEK': 0, 'NOTCH': 0, 'SMAD': 0, 'SNAI1': 0, 'SNAI2': 1, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1': 0, 'ZEB1': 0, 'ZEB2': 0, 'miR200': 1}</data>
+    </node>
+    <node id="A10">
+      <data key="d0">{AKT: 0, AXIN2: 0, Bcatenin_memb: 1, Bcatenin_nuc: 0, Dest_compl: 0, Ecadherin: 1, GLI: 0, GSK3B: 1, MEK: 0, NOTCH: 0, SMAD: 0, SNAI1: 0, SNAI2: 1, SOS_GRB2: 0, TGFBR: 0, TWIST1: 0, ZEB1: 0, ZEB2: 0, miR200: 1}</data>
+      <data key="d1">{'AKT': 0, 'AXIN2': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Dest_compl': 0, 'Ecadherin': 1, 'GLI': 0, 'GSK3B': 1, 'MEK': 0, 'NOTCH': 0, 'SMAD': 0, 'SNAI1': 0, 'SNAI2': 1, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1': 0, 'ZEB1': 0, 'ZEB2': 0, 'miR200': 1}</data>
+    </node>
+    <node id="A11">
+      <data key="d0">{AKT: 0, AXIN2: 0, Bcatenin_memb: 1, Bcatenin_nuc: 0, Dest_compl: 1, Ecadherin: 1, GLI: 0, GSK3B: 1, MEK: 0, NOTCH: 0, SMAD: 0, SNAI1: 0, SNAI2: 0, SOS_GRB2: 0, TGFBR: 0, TWIST1: 0, ZEB1: 0, ZEB2: 0, miR200: 1}</data>
+      <data key="d1">{'AKT': 0, 'AXIN2': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'Ecadherin': 1, 'GLI': 0, 'GSK3B': 1, 'MEK': 0, 'NOTCH': 0, 'SMAD': 0, 'SNAI1': 0, 'SNAI2': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1': 0, 'ZEB1': 0, 'ZEB2': 0, 'miR200': 1}</data>
+    </node>
+    <node id="A12">
+      <data key="d0">{AKT: 0, AXIN2: 0, Bcatenin_memb: 1, Bcatenin_nuc: 0, Dest_compl: 0, Ecadherin: 1, GLI: 0, GSK3B: 1, MEK: 0, NOTCH: 0, SMAD: 0, SNAI1: 0, SNAI2: 0, SOS_GRB2: 0, TGFBR: 0, TWIST1: 0, ZEB1: 0, ZEB2: 0, miR200: 1}</data>
+      <data key="d1">{'AKT': 0, 'AXIN2': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Dest_compl': 0, 'Ecadherin': 1, 'GLI': 0, 'GSK3B': 1, 'MEK': 0, 'NOTCH': 0, 'SMAD': 0, 'SNAI1': 0, 'SNAI2': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1': 0, 'ZEB1': 0, 'ZEB2': 0, 'miR200': 1}</data>
+    </node>
+    <edge source="(0, 1)" target="(1, 2)" />
+    <edge source="(0, 1)" target="(1, 15)" />
+    <edge source="(0, 1)" target="(1, 16)" />
+    <edge source="(0, 1)" target="(1, 17)" />
+    <edge source="(0, 1)" target="(1, 18)" />
+    <edge source="(0, 1)" target="(1, 19)" />
+    <edge source="(0, 1)" target="(1, 29)" />
+    <edge source="(0, 1)" target="(1, 33)" />
+    <edge source="(1, 2)" target="(2, 3)" />
+    <edge source="(1, 2)" target="(2, 4)" />
+    <edge source="(1, 2)" target="(2, 5)" />
+    <edge source="(1, 2)" target="(2, 6)" />
+    <edge source="(1, 2)" target="(2, 7)" />
+    <edge source="(1, 2)" target="(2, 13)" />
+    <edge source="(1, 15)" target="A0" />
+    <edge source="(1, 16)" target="A0" />
+    <edge source="(1, 17)" target="A0" />
+    <edge source="(1, 18)" target="A0" />
+    <edge source="(1, 19)" target="(19, 7)" />
+    <edge source="(1, 19)" target="(19, 20)" />
+    <edge source="(1, 19)" target="(19, 21)" />
+    <edge source="(1, 19)" target="(19, 22)" />
+    <edge source="(1, 19)" target="(19, 23)" />
+    <edge source="(1, 19)" target="(19, 24)" />
+    <edge source="(1, 19)" target="(19, 26)" />
+    <edge source="(1, 29)" target="(29, 13)" />
+    <edge source="(1, 29)" target="(29, 24)" />
+    <edge source="(1, 29)" target="(29, 30)" />
+    <edge source="(1, 29)" target="(29, 32)" />
+    <edge source="(1, 33)" target="(33, 26)" />
+    <edge source="(1, 33)" target="(33, 34)" />
+    <edge source="(1, 33)" target="(33, 36)" />
+    <edge source="(1, 33)" target="(33, 38)" />
+    <edge source="(0, 39)" target="(39, 2)" />
+    <edge source="(0, 39)" target="(39, 40)" />
+    <edge source="(0, 39)" target="(39, 41)" />
+    <edge source="(0, 39)" target="(39, 42)" />
+    <edge source="(0, 39)" target="(39, 43)" />
+    <edge source="(0, 39)" target="(39, 44)" />
+    <edge source="(0, 39)" target="(39, 51)" />
+    <edge source="(39, 2)" target="(2, 3)" />
+    <edge source="(39, 2)" target="(2, 4)" />
+    <edge source="(39, 2)" target="(2, 5)" />
+    <edge source="(39, 2)" target="(2, 6)" />
+    <edge source="(39, 2)" target="(2, 7)" />
+    <edge source="(39, 2)" target="(2, 13)" />
+    <edge source="(39, 40)" target="A0" />
+    <edge source="(39, 41)" target="A0" />
+    <edge source="(39, 42)" target="A0" />
+    <edge source="(39, 43)" target="A0" />
+    <edge source="(39, 44)" target="(44, 7)" />
+    <edge source="(39, 44)" target="(44, 45)" />
+    <edge source="(39, 44)" target="(44, 46)" />
+    <edge source="(39, 44)" target="(44, 47)" />
+    <edge source="(39, 44)" target="(44, 48)" />
+    <edge source="(39, 44)" target="(44, 49)" />
+    <edge source="(39, 51)" target="(51, 13)" />
+    <edge source="(39, 51)" target="(51, 49)" />
+    <edge source="(39, 51)" target="(51, 52)" />
+    <edge source="(39, 51)" target="(51, 54)" />
+    <edge source="(0, 55)" target="A0" />
+    <edge source="(0, 56)" target="A0" />
+    <edge source="(0, 57)" target="A0" />
+    <edge source="(0, 58)" target="A0" />
+    <edge source="(0, 59)" target="(59, 19)" />
+    <edge source="(0, 59)" target="(59, 44)" />
+    <edge source="(0, 59)" target="(59, 60)" />
+    <edge source="(0, 59)" target="(59, 61)" />
+    <edge source="(0, 59)" target="(59, 62)" />
+    <edge source="(0, 59)" target="(59, 63)" />
+    <edge source="(0, 59)" target="(59, 64)" />
+    <edge source="(0, 59)" target="(59, 68)" />
+    <edge source="(59, 19)" target="(19, 7)" />
+    <edge source="(59, 19)" target="(19, 20)" />
+    <edge source="(59, 19)" target="(19, 21)" />
+    <edge source="(59, 19)" target="(19, 22)" />
+    <edge source="(59, 19)" target="(19, 23)" />
+    <edge source="(59, 19)" target="(19, 24)" />
+    <edge source="(59, 19)" target="(19, 26)" />
+    <edge source="(59, 44)" target="(44, 7)" />
+    <edge source="(59, 44)" target="(44, 45)" />
+    <edge source="(59, 44)" target="(44, 46)" />
+    <edge source="(59, 44)" target="(44, 47)" />
+    <edge source="(59, 44)" target="(44, 48)" />
+    <edge source="(59, 44)" target="(44, 49)" />
+    <edge source="(59, 60)" target="A0" />
+    <edge source="(59, 61)" target="A0" />
+    <edge source="(59, 62)" target="A0" />
+    <edge source="(59, 63)" target="A0" />
+    <edge source="(59, 64)" target="(64, 24)" />
+    <edge source="(59, 64)" target="(64, 49)" />
+    <edge source="(59, 64)" target="(64, 65)" />
+    <edge source="(59, 64)" target="(64, 67)" />
+    <edge source="(59, 68)" target="(68, 26)" />
+    <edge source="(59, 68)" target="(68, 69)" />
+    <edge source="(59, 68)" target="(68, 71)" />
+    <edge source="(59, 68)" target="(68, 73)" />
+    <edge source="(0, 74)" target="(74, 29)" />
+    <edge source="(0, 74)" target="(74, 51)" />
+    <edge source="(0, 74)" target="(74, 64)" />
+    <edge source="(0, 74)" target="(74, 75)" />
+    <edge source="(0, 74)" target="(74, 79)" />
+    <edge source="(0, 74)" target="(74, 81)" />
+    <edge source="(74, 29)" target="(29, 13)" />
+    <edge source="(74, 29)" target="(29, 24)" />
+    <edge source="(74, 29)" target="(29, 30)" />
+    <edge source="(74, 29)" target="(29, 32)" />
+    <edge source="(74, 51)" target="(51, 13)" />
+    <edge source="(74, 51)" target="(51, 49)" />
+    <edge source="(74, 51)" target="(51, 52)" />
+    <edge source="(74, 51)" target="(51, 54)" />
+    <edge source="(74, 64)" target="(64, 24)" />
+    <edge source="(74, 64)" target="(64, 49)" />
+    <edge source="(74, 64)" target="(64, 65)" />
+    <edge source="(74, 64)" target="(64, 67)" />
+    <edge source="(74, 75)" target="(75, 54)" />
+    <edge source="(74, 75)" target="(75, 65)" />
+    <edge source="(74, 75)" target="(75, 76)" />
+    <edge source="(74, 75)" target="(75, 78)" />
+    <edge source="(74, 79)" target="(79, 30)" />
+    <edge source="(74, 79)" target="(79, 52)" />
+    <edge source="(74, 79)" target="(79, 76)" />
+    <edge source="(74, 79)" target="(79, 80)" />
+    <edge source="(74, 81)" target="(81, 32)" />
+    <edge source="(74, 81)" target="(81, 67)" />
+    <edge source="(74, 81)" target="(81, 78)" />
+    <edge source="(74, 81)" target="(81, 80)" />
+    <edge source="(0, 82)" target="(82, 33)" />
+    <edge source="(0, 82)" target="(82, 68)" />
+    <edge source="(0, 82)" target="(82, 83)" />
+    <edge source="(0, 82)" target="(82, 87)" />
+    <edge source="(0, 82)" target="(82, 91)" />
+    <edge source="(0, 82)" target="(82, 93)" />
+    <edge source="(82, 33)" target="(33, 26)" />
+    <edge source="(82, 33)" target="(33, 34)" />
+    <edge source="(82, 33)" target="(33, 36)" />
+    <edge source="(82, 33)" target="(33, 38)" />
+    <edge source="(82, 68)" target="(68, 26)" />
+    <edge source="(82, 68)" target="(68, 69)" />
+    <edge source="(82, 68)" target="(68, 71)" />
+    <edge source="(82, 68)" target="(68, 73)" />
+    <edge source="(82, 83)" target="(83, 34)" />
+    <edge source="(82, 83)" target="(83, 69)" />
+    <edge source="(82, 83)" target="(83, 84)" />
+    <edge source="(82, 83)" target="(83, 86)" />
+    <edge source="(82, 87)" target="(87, 36)" />
+    <edge source="(82, 87)" target="(87, 84)" />
+    <edge source="(82, 87)" target="(87, 88)" />
+    <edge source="(82, 87)" target="(87, 90)" />
+    <edge source="(82, 91)" target="(91, 38)" />
+    <edge source="(82, 91)" target="(91, 71)" />
+    <edge source="(82, 91)" target="(91, 88)" />
+    <edge source="(82, 91)" target="(91, 92)" />
+    <edge source="(82, 93)" target="(93, 73)" />
+    <edge source="(82, 93)" target="(93, 86)" />
+    <edge source="(82, 93)" target="(93, 90)" />
+    <edge source="(82, 93)" target="(93, 92)" />
+    <edge source="(2, 3)" target="A0" />
+    <edge source="(2, 4)" target="A0" />
+    <edge source="(2, 5)" target="A0" />
+    <edge source="(2, 6)" target="A0" />
+    <edge source="(2, 7)" target="(7, 8)" />
+    <edge source="(2, 7)" target="(7, 9)" />
+    <edge source="(2, 7)" target="(7, 10)" />
+    <edge source="(2, 7)" target="(7, 11)" />
+    <edge source="(2, 7)" target="(7, 12)" />
+    <edge source="(2, 13)" target="(13, 12)" />
+    <edge source="(2, 13)" target="(13, 14)" />
+    <edge source="(19, 7)" target="(7, 8)" />
+    <edge source="(19, 7)" target="(7, 9)" />
+    <edge source="(19, 7)" target="(7, 10)" />
+    <edge source="(19, 7)" target="(7, 11)" />
+    <edge source="(19, 7)" target="(7, 12)" />
+    <edge source="(19, 20)" target="A0" />
+    <edge source="(19, 21)" target="A0" />
+    <edge source="(19, 22)" target="A0" />
+    <edge source="(19, 23)" target="A0" />
+    <edge source="(19, 24)" target="(24, 12)" />
+    <edge source="(19, 24)" target="(24, 25)" />
+    <edge source="(19, 26)" target="(26, 27)" />
+    <edge source="(19, 26)" target="(26, 28)" />
+    <edge source="(29, 13)" target="(13, 12)" />
+    <edge source="(29, 13)" target="(13, 14)" />
+    <edge source="(29, 24)" target="(24, 12)" />
+    <edge source="(29, 24)" target="(24, 25)" />
+    <edge source="(29, 30)" target="(30, 14)" />
+    <edge source="(29, 30)" target="(30, 31)" />
+    <edge source="(29, 32)" target="(32, 25)" />
+    <edge source="(29, 32)" target="(32, 31)" />
+    <edge source="(33, 26)" target="(26, 27)" />
+    <edge source="(33, 26)" target="(26, 28)" />
+    <edge source="(33, 34)" target="(34, 27)" />
+    <edge source="(33, 34)" target="(34, 35)" />
+    <edge source="(33, 36)" target="(36, 35)" />
+    <edge source="(33, 36)" target="(36, 37)" />
+    <edge source="(33, 38)" target="(38, 28)" />
+    <edge source="(33, 38)" target="(38, 37)" />
+    <edge source="(7, 8)" target="A0" />
+    <edge source="(7, 9)" target="A0" />
+    <edge source="(7, 10)" target="A0" />
+    <edge source="(7, 11)" target="A0" />
+    <edge source="(7, 12)" target="A1" />
+    <edge source="(13, 12)" target="A1" />
+    <edge source="(13, 14)" target="A2" />
+    <edge source="(24, 12)" target="A1" />
+    <edge source="(24, 25)" target="A3" />
+    <edge source="(26, 27)" target="A3" />
+    <edge source="(26, 28)" target="A4" />
+    <edge source="(30, 14)" target="A2" />
+    <edge source="(30, 31)" target="A5" />
+    <edge source="(32, 25)" target="A3" />
+    <edge source="(32, 31)" target="A5" />
+    <edge source="(34, 27)" target="A3" />
+    <edge source="(34, 35)" target="A5" />
+    <edge source="(36, 35)" target="A5" />
+    <edge source="(36, 37)" target="A6" />
+    <edge source="(38, 28)" target="A4" />
+    <edge source="(38, 37)" target="A6" />
+    <edge source="(44, 7)" target="(7, 8)" />
+    <edge source="(44, 7)" target="(7, 9)" />
+    <edge source="(44, 7)" target="(7, 10)" />
+    <edge source="(44, 7)" target="(7, 11)" />
+    <edge source="(44, 7)" target="(7, 12)" />
+    <edge source="(44, 45)" target="A0" />
+    <edge source="(44, 46)" target="A0" />
+    <edge source="(44, 47)" target="A0" />
+    <edge source="(44, 48)" target="A0" />
+    <edge source="(44, 49)" target="(49, 12)" />
+    <edge source="(44, 49)" target="(49, 50)" />
+    <edge source="(51, 13)" target="(13, 12)" />
+    <edge source="(51, 13)" target="(13, 14)" />
+    <edge source="(51, 49)" target="(49, 12)" />
+    <edge source="(51, 49)" target="(49, 50)" />
+    <edge source="(51, 52)" target="(52, 14)" />
+    <edge source="(51, 52)" target="(52, 53)" />
+    <edge source="(51, 54)" target="(54, 50)" />
+    <edge source="(51, 54)" target="(54, 53)" />
+    <edge source="(49, 12)" target="A1" />
+    <edge source="(49, 50)" target="A7" />
+    <edge source="(52, 14)" target="A2" />
+    <edge source="(52, 53)" target="A8" />
+    <edge source="(54, 50)" target="A7" />
+    <edge source="(54, 53)" target="A8" />
+    <edge source="(64, 24)" target="(24, 12)" />
+    <edge source="(64, 24)" target="(24, 25)" />
+    <edge source="(64, 49)" target="(49, 12)" />
+    <edge source="(64, 49)" target="(49, 50)" />
+    <edge source="(64, 65)" target="(65, 50)" />
+    <edge source="(64, 65)" target="(65, 66)" />
+    <edge source="(64, 67)" target="(67, 25)" />
+    <edge source="(64, 67)" target="(67, 66)" />
+    <edge source="(68, 26)" target="(26, 27)" />
+    <edge source="(68, 26)" target="(26, 28)" />
+    <edge source="(68, 69)" target="(69, 27)" />
+    <edge source="(68, 69)" target="(69, 70)" />
+    <edge source="(68, 71)" target="(71, 28)" />
+    <edge source="(68, 71)" target="(71, 72)" />
+    <edge source="(68, 73)" target="(73, 70)" />
+    <edge source="(68, 73)" target="(73, 72)" />
+    <edge source="(65, 50)" target="A7" />
+    <edge source="(65, 66)" target="A9" />
+    <edge source="(67, 25)" target="A3" />
+    <edge source="(67, 66)" target="A9" />
+    <edge source="(69, 27)" target="A3" />
+    <edge source="(69, 70)" target="A9" />
+    <edge source="(71, 28)" target="A4" />
+    <edge source="(71, 72)" target="A10" />
+    <edge source="(73, 70)" target="A9" />
+    <edge source="(73, 72)" target="A10" />
+    <edge source="(75, 54)" target="(54, 50)" />
+    <edge source="(75, 54)" target="(54, 53)" />
+    <edge source="(75, 65)" target="(65, 50)" />
+    <edge source="(75, 65)" target="(65, 66)" />
+    <edge source="(75, 76)" target="(76, 53)" />
+    <edge source="(75, 76)" target="(76, 77)" />
+    <edge source="(75, 78)" target="(78, 66)" />
+    <edge source="(75, 78)" target="(78, 77)" />
+    <edge source="(79, 30)" target="(30, 14)" />
+    <edge source="(79, 30)" target="(30, 31)" />
+    <edge source="(79, 52)" target="(52, 14)" />
+    <edge source="(79, 52)" target="(52, 53)" />
+    <edge source="(79, 76)" target="(76, 53)" />
+    <edge source="(79, 76)" target="(76, 77)" />
+    <edge source="(79, 80)" target="(80, 31)" />
+    <edge source="(79, 80)" target="(80, 77)" />
+    <edge source="(81, 32)" target="(32, 25)" />
+    <edge source="(81, 32)" target="(32, 31)" />
+    <edge source="(81, 67)" target="(67, 25)" />
+    <edge source="(81, 67)" target="(67, 66)" />
+    <edge source="(81, 78)" target="(78, 66)" />
+    <edge source="(81, 78)" target="(78, 77)" />
+    <edge source="(81, 80)" target="(80, 31)" />
+    <edge source="(81, 80)" target="(80, 77)" />
+    <edge source="(76, 53)" target="A8" />
+    <edge source="(76, 77)" target="A11" />
+    <edge source="(78, 66)" target="A9" />
+    <edge source="(78, 77)" target="A11" />
+    <edge source="(80, 31)" target="A5" />
+    <edge source="(80, 77)" target="A11" />
+    <edge source="(83, 34)" target="(34, 27)" />
+    <edge source="(83, 34)" target="(34, 35)" />
+    <edge source="(83, 69)" target="(69, 27)" />
+    <edge source="(83, 69)" target="(69, 70)" />
+    <edge source="(83, 84)" target="(84, 35)" />
+    <edge source="(83, 84)" target="(84, 85)" />
+    <edge source="(83, 86)" target="(86, 70)" />
+    <edge source="(83, 86)" target="(86, 85)" />
+    <edge source="(87, 36)" target="(36, 35)" />
+    <edge source="(87, 36)" target="(36, 37)" />
+    <edge source="(87, 84)" target="(84, 35)" />
+    <edge source="(87, 84)" target="(84, 85)" />
+    <edge source="(87, 88)" target="(88, 37)" />
+    <edge source="(87, 88)" target="(88, 89)" />
+    <edge source="(87, 90)" target="(90, 85)" />
+    <edge source="(87, 90)" target="(90, 89)" />
+    <edge source="(91, 38)" target="(38, 28)" />
+    <edge source="(91, 38)" target="(38, 37)" />
+    <edge source="(91, 71)" target="(71, 28)" />
+    <edge source="(91, 71)" target="(71, 72)" />
+    <edge source="(91, 88)" target="(88, 37)" />
+    <edge source="(91, 88)" target="(88, 89)" />
+    <edge source="(91, 92)" target="(92, 72)" />
+    <edge source="(91, 92)" target="(92, 89)" />
+    <edge source="(93, 73)" target="(73, 70)" />
+    <edge source="(93, 73)" target="(73, 72)" />
+    <edge source="(93, 86)" target="(86, 70)" />
+    <edge source="(93, 86)" target="(86, 85)" />
+    <edge source="(93, 90)" target="(90, 85)" />
+    <edge source="(93, 90)" target="(90, 89)" />
+    <edge source="(93, 92)" target="(92, 72)" />
+    <edge source="(93, 92)" target="(92, 89)" />
+    <edge source="(84, 35)" target="A5" />
+    <edge source="(84, 85)" target="A11" />
+    <edge source="(86, 70)" target="A9" />
+    <edge source="(86, 85)" target="A11" />
+    <edge source="(88, 37)" target="A6" />
+    <edge source="(88, 89)" target="A12" />
+    <edge source="(90, 85)" target="A11" />
+    <edge source="(90, 89)" target="A12" />
+    <edge source="(92, 72)" target="A10" />
+    <edge source="(92, 89)" target="A12" />
+  </graph>
+</graphml>
