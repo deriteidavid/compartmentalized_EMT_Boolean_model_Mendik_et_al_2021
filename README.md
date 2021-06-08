@@ -20,7 +20,12 @@ Regulation of translocating proteins is crucial in defining cellular behaviour. 
 The code is divided into different modules responsible for different parts of the analysis, organized into sub-folders in the repository:
 
 ### BooleanNet modified
-    ----description----
+This module contains the code, which was extensively used for the KI/KO in silico experiments described in the paper.  
+Original code source: https://github.com/ialbert/booleannet
+Modifications:
+- graphical user interface
+- addition of different updating schemes (e.g. weighted general asynchronous, random order asynchronous, weighted random order asynchronous)
+- implementation of short term perturbations to model noise and long term perturbations to model in silico KI/KO experiments
 ### Attractor repertoire and stable motif analysis
 This module contains two Jupyter notebooks, which contain the step-by-step analysis of identifying the attractors and stable motif succession of the original 19 node EMT model of Steinway et al. and the new 30 node compartmentalized EMT model respectively. The code is using the latest algorithms by Rozum et al. The original tool is available at https://github.com/jcrozum/StableMotifs
 
