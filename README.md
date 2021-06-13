@@ -34,4 +34,4 @@ The module contains code of for the numerical analysis for the stationary probab
 
 ### EMT heatmap
 The module consists of a Jupyter notebook and data files that are needed for the visualisation of stable states of the different EMT models after single node perturbations.
-(Supplementary Figure S1, S2, S3)
+(Supplementary Figure S1, S2, S3) These figures show the results of single node KI/KO perturbations. On the heatmap each column represents the steady state (attractor) of the model where it stabilized after a one node perturbation. The column’s name is the perturbed node’s name. Each row shows a node in the model and one can assess its state in different perturbations. The nodes’ colour indicates if the node’s state corresponds to the epithelial or the mesenchymal attractor, blue colours are epithelial, whereas orange colours are mesenchymal node states. The text indicates the exact Boolean state of a node, either TRUE or FALSE.
