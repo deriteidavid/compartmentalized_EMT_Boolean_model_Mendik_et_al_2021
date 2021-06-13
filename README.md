@@ -31,3 +31,7 @@ This module contains two Jupyter notebooks, which contain the step-by-step analy
 
 ### Attractor probabilities
 The module contains code of for the numerical analysis for the stationary probability of the attractors in the presence of noise. The method uses a noisy update, scheme, where node updates can return the wrong node state with probability _p_. The models then are run for a large number of steps, initiated from each attractor state (which they can leave due to the noise) and finally the visitation probabilities are calculated from the simulation trajectories. The analysis is done in a step-by-step manner in a Jupyter notebook and summerized in an exported excel table.
+
+### EMT heatmap
+The module consists of a Jupyter notebook and data files that are needed for the visualisation of stable states of the different EMT models after single node perturbations.
+(Supplementary Figure S1, S2, S3)
