@@ -1,0 +1,596 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="motif" attr.type="string"/>
+<key id="d5" for="edge" attr.name="states" attr.type="string"/>
+<key id="d4" for="node" attr.name="label" attr.type="string"/>
+<key id="d3" for="node" attr.name="motif union" attr.type="string"/>
+<key id="d2" for="node" attr.name="history" attr.type="string"/>
+<key id="d1" for="node" attr.name="states" attr.type="string"/>
+<key id="d0" for="node" attr.name="index" attr.type="string"/>
+<graph edgedefault="directed"><node id="0">
+  <data key="d0">0</data>
+  <data key="d1">{}</data>
+  <data key="d2">[[]]</data>
+  <data key="d3">{}</data>
+  <data key="d4">{}</data>
+</node>
+<node id="1">
+  <data key="d0">1</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0}</data>
+  <data key="d2">[[{'AXIN2_cyto': 1}]]</data>
+  <data key="d3">{'AXIN2_cyto': 1}</data>
+  <data key="d4">{'AXIN2_cyto': 1}</data>
+</node>
+<node id="2">
+  <data key="d0">2</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0}</data>
+  <data key="d2">[[{'AXIN2_cyto': 1}, {'Bcatenin_memb': 0, 'Ecadherin': 0}]]</data>
+  <data key="d3">{'AXIN2_cyto': 1, 'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+  <data key="d4">{'AXIN2_cyto': 1, 'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+</node>
+<node id="3">
+  <data key="d0">3</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d2">[[{'AXIN2_cyto': 1}, {'Bcatenin_memb': 0, 'Ecadherin': 0}, {'AKT': 1, 'GSK3B_cyto': 0}]]</data>
+  <data key="d3">{'AXIN2_cyto': 1, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'AKT': 1, 'GSK3B_cyto': 0}</data>
+  <data key="d4">{'AXIN2_cyto': 1, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'AKT': 1, 'GSK3B_cyto': 0}</data>
+</node>
+<node id="4">
+  <data key="d0">4</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d2">[[{'AXIN2_cyto': 1}, {'Bcatenin_memb': 0, 'Ecadherin': 0}, {'Bcatenin_nuc': 1, 'NOTCH': 1, 'NOTCH_ic_cyto': 1}]]</data>
+  <data key="d3">{'AXIN2_cyto': 1, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Bcatenin_nuc': 1, 'NOTCH': 1, 'NOTCH_ic_cyto': 1}</data>
+  <data key="d4">{'AXIN2_cyto': 1, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Bcatenin_nuc': 1, 'NOTCH': 1, 'NOTCH_ic_cyto': 1}</data>
+</node>
+<node id="5">
+  <data key="d0">5</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d2">[[{'AXIN2_cyto': 1}, {'Bcatenin_memb': 0, 'Ecadherin': 0}, {'AKT': 1, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}]]</data>
+  <data key="d3">{'AXIN2_cyto': 1, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'AKT': 1, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}</data>
+  <data key="d4">{'AXIN2_cyto': 1, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'AKT': 1, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}</data>
+</node>
+<node id="6">
+  <data key="d0">6</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d2">[[{'AXIN2_cyto': 1}, {'Bcatenin_memb': 0, 'Ecadherin': 0}, {'GLI_cyto': 1, 'GLI_nuc': 1, 'GSK3B_cyto': 0, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}]]</data>
+  <data key="d3">{'AXIN2_cyto': 1, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'GLI_cyto': 1, 'GLI_nuc': 1, 'GSK3B_cyto': 0, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}</data>
+  <data key="d4">{'AXIN2_cyto': 1, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'GLI_cyto': 1, 'GLI_nuc': 1, 'GSK3B_cyto': 0, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}</data>
+</node>
+<node id="7">
+  <data key="d0">7</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'GLI_cyto': 0, 'NOTCH_ic_nuc': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'miR200': 1}</data>
+  <data key="d2">[[{'AXIN2_cyto': 1}, {'Bcatenin_memb': 0, 'Ecadherin': 0}, {'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}]]</data>
+  <data key="d3">{'AXIN2_cyto': 1, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}</data>
+  <data key="d4">{'AXIN2_cyto': 1, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}</data>
+</node>
+<node id="8">
+  <data key="d0">8</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d2">[[{'AXIN2_cyto': 1}, {'AKT': 1, 'GSK3B_cyto': 0}]]</data>
+  <data key="d3">{'AXIN2_cyto': 1, 'AKT': 1, 'GSK3B_cyto': 0}</data>
+  <data key="d4">{'AXIN2_cyto': 1, 'AKT': 1, 'GSK3B_cyto': 0}</data>
+</node>
+<node id="9">
+  <data key="d0">9</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d2">[[{'AXIN2_cyto': 1}, {'Bcatenin_memb': 0, 'Bcatenin_nuc': 1, 'NOTCH': 1, 'NOTCH_ic_cyto': 1}]]</data>
+  <data key="d3">{'AXIN2_cyto': 1, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 1, 'NOTCH': 1, 'NOTCH_ic_cyto': 1}</data>
+  <data key="d4">{'AXIN2_cyto': 1, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 1, 'NOTCH': 1, 'NOTCH_ic_cyto': 1}</data>
+</node>
+<node id="10">
+  <data key="d0">10</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d2">[[{'AXIN2_cyto': 1}, {'AKT': 1, 'MEK': 1, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}]]</data>
+  <data key="d3">{'AXIN2_cyto': 1, 'AKT': 1, 'MEK': 1, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}</data>
+  <data key="d4">{'AXIN2_cyto': 1, 'AKT': 1, 'MEK': 1, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}</data>
+</node>
+<node id="11">
+  <data key="d0">11</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d2">[[{'AXIN2_cyto': 1}, {'GLI_cyto': 1, 'GLI_nuc': 1, 'GSK3B_cyto': 0, 'MEK': 1, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}]]</data>
+  <data key="d3">{'AXIN2_cyto': 1, 'GLI_cyto': 1, 'GLI_nuc': 1, 'GSK3B_cyto': 0, 'MEK': 1, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}</data>
+  <data key="d4">{'AXIN2_cyto': 1, 'GLI_cyto': 1, 'GLI_nuc': 1, 'GSK3B_cyto': 0, 'MEK': 1, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}</data>
+</node>
+<node id="12">
+  <data key="d0">12</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Ecadherin_CTF': 0, 'GLI_cyto': 0, 'NOTCH': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'MEK': 0, 'NOTCH_ic_cyto': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'NOTCH_ic_nuc': 0, 'miR200': 1}</data>
+  <data key="d2">[[{'AXIN2_cyto': 1}, {'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}]]</data>
+  <data key="d3">{'AXIN2_cyto': 1, 'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}</data>
+  <data key="d4">{'AXIN2_cyto': 1, 'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}</data>
+</node>
+<node id="13">
+  <data key="d0">13</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Ecadherin_CTF': 0, 'GLI_cyto': 0, 'NOTCH': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'MEK': 0, 'NOTCH_ic_cyto': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'NOTCH_ic_nuc': 0, 'miR200': 1, 'Dest_compl': 1}</data>
+  <data key="d2">[[{'AXIN2_cyto': 1}, {'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}, {'Dest_compl': 1}]]</data>
+  <data key="d3">{'AXIN2_cyto': 1, 'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Dest_compl': 1}</data>
+  <data key="d4">{'AXIN2_cyto': 1, 'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Dest_compl': 1}</data>
+</node>
+<node id="14">
+  <data key="d0">14</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Ecadherin_CTF': 0, 'GLI_cyto': 0, 'NOTCH': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'MEK': 0, 'NOTCH_ic_cyto': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'NOTCH_ic_nuc': 0, 'miR200': 1, 'Dest_compl': 0}</data>
+  <data key="d2">[[{'AXIN2_cyto': 1}, {'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}, {'Dest_compl': 0}]]</data>
+  <data key="d3">{'AXIN2_cyto': 1, 'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Dest_compl': 0}</data>
+  <data key="d4">{'AXIN2_cyto': 1, 'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Dest_compl': 0}</data>
+</node>
+<node id="15">
+  <data key="d0">15</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'GLI_cyto': 0, 'NOTCH_ic_nuc': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'miR200': 1}</data>
+  <data key="d2">[[{'AXIN2_cyto': 1}, {'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}]]</data>
+  <data key="d3">{'AXIN2_cyto': 1, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}</data>
+  <data key="d4">{'AXIN2_cyto': 1, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}</data>
+</node>
+<node id="16">
+  <data key="d0">16</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Ecadherin_CTF': 0, 'GLI_cyto': 0, 'NOTCH': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'MEK': 0, 'NOTCH_ic_cyto': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'NOTCH_ic_nuc': 0, 'miR200': 1, 'Dest_compl': 1}</data>
+  <data key="d2">[[{'AXIN2_cyto': 1}, {'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}, {'Bcatenin_memb': 1, 'Ecadherin': 1}]]</data>
+  <data key="d3">{'AXIN2_cyto': 1, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Bcatenin_memb': 1, 'Ecadherin': 1}</data>
+  <data key="d4">{'AXIN2_cyto': 1, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Bcatenin_memb': 1, 'Ecadherin': 1}</data>
+</node>
+<node id="17">
+  <data key="d0">17</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'GLI_cyto': 0, 'NOTCH_ic_nuc': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'miR200': 1}</data>
+  <data key="d2">[[{'AXIN2_cyto': 1}, {'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}, {'Bcatenin_memb': 0, 'Ecadherin': 0}]]</data>
+  <data key="d3">{'AXIN2_cyto': 1, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+  <data key="d4">{'AXIN2_cyto': 1, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+</node>
+<node id="18">
+  <data key="d0">18</data>
+  <data key="d1">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0}</data>
+  <data key="d2">[[{'Bcatenin_memb': 0, 'Ecadherin': 0}]]</data>
+  <data key="d3">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+  <data key="d4">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+</node>
+<node id="19">
+  <data key="d0">19</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d2">[[{'Bcatenin_memb': 0, 'Ecadherin': 0}, {'AKT': 1, 'GSK3B_cyto': 0}]]</data>
+  <data key="d3">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'AKT': 1, 'GSK3B_cyto': 0}</data>
+  <data key="d4">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'AKT': 1, 'GSK3B_cyto': 0}</data>
+</node>
+<node id="20">
+  <data key="d0">20</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d2">[[{'Bcatenin_memb': 0, 'Ecadherin': 0}, {'Bcatenin_nuc': 1, 'NOTCH': 1, 'NOTCH_ic_cyto': 1}]]</data>
+  <data key="d3">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'Bcatenin_nuc': 1, 'NOTCH': 1, 'NOTCH_ic_cyto': 1}</data>
+  <data key="d4">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'Bcatenin_nuc': 1, 'NOTCH': 1, 'NOTCH_ic_cyto': 1}</data>
+</node>
+<node id="21">
+  <data key="d0">21</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d2">[[{'Bcatenin_memb': 0, 'Ecadherin': 0}, {'AKT': 1, 'GSK3B_nuc': 0, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}]]</data>
+  <data key="d3">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'AKT': 1, 'GSK3B_nuc': 0, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}</data>
+  <data key="d4">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'AKT': 1, 'GSK3B_nuc': 0, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}</data>
+</node>
+<node id="22">
+  <data key="d0">22</data>
+  <data key="d1">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'GLI_cyto': 0, 'NOTCH_ic_nuc': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'miR200': 1}</data>
+  <data key="d2">[[{'Bcatenin_memb': 0, 'Ecadherin': 0}, {'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}]]</data>
+  <data key="d3">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}</data>
+  <data key="d4">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}</data>
+</node>
+<node id="23">
+  <data key="d0">23</data>
+  <data key="d1">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'GLI_cyto': 0, 'NOTCH_ic_nuc': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'miR200': 1, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'GSK3B_nuc': 1}</data>
+  <data key="d2">[[{'Bcatenin_memb': 0, 'Ecadherin': 0}, {'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}, {'AXIN2_cyto': 0, 'AXIN2_nuc': 1}]]</data>
+  <data key="d3">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1}</data>
+  <data key="d4">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1}</data>
+</node>
+<node id="24">
+  <data key="d0">24</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d2">[[{'AKT': 1, 'GSK3B_cyto': 0}]]</data>
+  <data key="d3">{'AKT': 1, 'GSK3B_cyto': 0}</data>
+  <data key="d4">{'AKT': 1, 'GSK3B_cyto': 0}</data>
+</node>
+<node id="25">
+  <data key="d0">25</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d2">[[{'AKT': 1, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 1, 'GSK3B_nuc': 0, 'NOTCH': 1, 'NOTCH_ic_cyto': 1}]]</data>
+  <data key="d3">{'AKT': 1, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 1, 'GSK3B_nuc': 0, 'NOTCH': 1, 'NOTCH_ic_cyto': 1}</data>
+  <data key="d4">{'AKT': 1, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 1, 'GSK3B_nuc': 0, 'NOTCH': 1, 'NOTCH_ic_cyto': 1}</data>
+</node>
+<node id="26">
+  <data key="d0">26</data>
+  <data key="d1">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d2">[[{'AKT': 1, 'GSK3B_nuc': 0, 'MEK': 1, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}]]</data>
+  <data key="d3">{'AKT': 1, 'GSK3B_nuc': 0, 'MEK': 1, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}</data>
+  <data key="d4">{'AKT': 1, 'GSK3B_nuc': 0, 'MEK': 1, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}</data>
+</node>
+<node id="27">
+  <data key="d0">27</data>
+  <data key="d1">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'GLI_cyto': 0, 'NOTCH_ic_nuc': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'miR200': 1}</data>
+  <data key="d2">[[{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}]]</data>
+  <data key="d3">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}</data>
+  <data key="d4">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}</data>
+</node>
+<node id="28">
+  <data key="d0">28</data>
+  <data key="d1">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'GLI_cyto': 0, 'NOTCH_ic_nuc': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'miR200': 1, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'GSK3B_nuc': 1}</data>
+  <data key="d2">[[{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}, {'AXIN2_cyto': 0, 'AXIN2_nuc': 1}]]</data>
+  <data key="d3">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1}</data>
+  <data key="d4">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1}</data>
+</node>
+<node id="29">
+  <data key="d0">29</data>
+  <data key="d1">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'GLI_cyto': 0, 'NOTCH_ic_nuc': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'miR200': 1, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'GSK3B_nuc': 1, 'Bcatenin_memb': 1, 'Ecadherin': 1, 'Ecadherin_CTF': 0, 'MEK': 0}</data>
+  <data key="d2">[[{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}, {'AXIN2_cyto': 0, 'AXIN2_nuc': 1}, {'Bcatenin_memb': 1, 'Ecadherin': 1}]]</data>
+  <data key="d3">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'Bcatenin_memb': 1, 'Ecadherin': 1}</data>
+  <data key="d4">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'Bcatenin_memb': 1, 'Ecadherin': 1}</data>
+</node>
+<node id="30">
+  <data key="d0">30</data>
+  <data key="d1">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'GLI_cyto': 0, 'NOTCH_ic_nuc': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'miR200': 1, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'GSK3B_nuc': 1}</data>
+  <data key="d2">[[{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}, {'AXIN2_cyto': 0, 'AXIN2_nuc': 1}, {'Bcatenin_memb': 0, 'Ecadherin': 0}]]</data>
+  <data key="d3">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+  <data key="d4">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+</node>
+<node id="31">
+  <data key="d0">31</data>
+  <data key="d1">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'GLI_cyto': 0, 'NOTCH_ic_nuc': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'miR200': 1}</data>
+  <data key="d2">[[{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}, {'Bcatenin_memb': 0, 'Ecadherin': 0}]]</data>
+  <data key="d3">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+  <data key="d4">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+</node>
+<node id="32">
+  <data key="d0">32</data>
+  <data key="d1">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'GLI_cyto': 0, 'NOTCH_ic_nuc': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'miR200': 1, 'Bcatenin_memb': 1, 'Ecadherin': 1, 'Ecadherin_CTF': 0, 'MEK': 0}</data>
+  <data key="d2">[[{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}, {'Bcatenin_memb': 1, 'Ecadherin': 1}]]</data>
+  <data key="d3">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Bcatenin_memb': 1, 'Ecadherin': 1}</data>
+  <data key="d4">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Bcatenin_memb': 1, 'Ecadherin': 1}</data>
+</node>
+<node id="33">
+  <data key="d0">33</data>
+  <data key="d1">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Ecadherin_CTF': 0, 'GLI_cyto': 0, 'NOTCH': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'MEK': 0, 'NOTCH_ic_cyto': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'NOTCH_ic_nuc': 0, 'miR200': 1}</data>
+  <data key="d2">[[{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}]]</data>
+  <data key="d3">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}</data>
+  <data key="d4">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}</data>
+</node>
+<node id="34">
+  <data key="d0">34</data>
+  <data key="d1">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'GLI_cyto': 0, 'NOTCH_ic_nuc': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'miR200': 1, 'Bcatenin_memb': 1, 'Ecadherin': 1, 'Ecadherin_CTF': 0, 'MEK': 0}</data>
+  <data key="d2">[[{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}, {'Dest_compl': 1}]]</data>
+  <data key="d3">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Dest_compl': 1}</data>
+  <data key="d4">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Dest_compl': 1}</data>
+</node>
+<node id="35">
+  <data key="d0">35</data>
+  <data key="d1">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'GLI_cyto': 0, 'NOTCH_ic_nuc': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'miR200': 1, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'GSK3B_nuc': 1, 'Bcatenin_memb': 1, 'Ecadherin': 1, 'Ecadherin_CTF': 0, 'MEK': 0}</data>
+  <data key="d2">[[{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}, {'Dest_compl': 1}, {'AXIN2_cyto': 0, 'AXIN2_nuc': 1}]]</data>
+  <data key="d3">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Dest_compl': 1, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1}</data>
+  <data key="d4">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Dest_compl': 1, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1}</data>
+</node>
+<node id="36">
+  <data key="d0">36</data>
+  <data key="d1">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Ecadherin_CTF': 0, 'GLI_cyto': 0, 'NOTCH': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'MEK': 0, 'NOTCH_ic_cyto': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'NOTCH_ic_nuc': 0, 'miR200': 1, 'Dest_compl': 0}</data>
+  <data key="d2">[[{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}, {'Dest_compl': 0}]]</data>
+  <data key="d3">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Dest_compl': 0}</data>
+  <data key="d4">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Dest_compl': 0}</data>
+</node>
+<node id="37">
+  <data key="d0">37</data>
+  <data key="d1">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Ecadherin_CTF': 0, 'GLI_cyto': 0, 'NOTCH': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'MEK': 0, 'NOTCH_ic_cyto': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'NOTCH_ic_nuc': 0, 'miR200': 1, 'Dest_compl': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'GSK3B_nuc': 1}</data>
+  <data key="d2">[[{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}, {'Dest_compl': 0}, {'AXIN2_cyto': 0, 'AXIN2_nuc': 1}]]</data>
+  <data key="d3">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Dest_compl': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1}</data>
+  <data key="d4">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Dest_compl': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1}</data>
+</node>
+<node id="38">
+  <data key="d0">38</data>
+  <data key="d1">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Ecadherin_CTF': 0, 'GLI_cyto': 0, 'NOTCH': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'MEK': 0, 'NOTCH_ic_cyto': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'NOTCH_ic_nuc': 0, 'miR200': 1, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'GSK3B_nuc': 1}</data>
+  <data key="d2">[[{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}, {'AXIN2_cyto': 0, 'AXIN2_nuc': 1}]]</data>
+  <data key="d3">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1}</data>
+  <data key="d4">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1}</data>
+</node>
+<node id="A0">
+  <data key="d0">A0</data>
+  <data key="d1">{'AKT': 1, 'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 1, 'Dest_compl': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'GLI_cyto': 1, 'GLI_nuc': 1, 'GSK3B_cyto': 0, 'GSK3B_nuc': 0, 'MEK': 1, 'NOTCH': 1, 'NOTCH_ic_cyto': 1, 'NOTCH_ic_nuc': 1, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'SNAI2_cyto': 1, 'SNAI2_nuc': 1, 'SOS_GRB2': 0, 'TGFBR': 1, 'TGFBR_icd': 1, 'TWIST1_nuc': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'ZEB2': 1, 'miR200': 0}</data>
+  <data key="d4">Attractor A0:
+ {'AKT': 1, 'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 1, 'Dest_compl': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'GLI_cyto': 1, 'GLI_nuc': 1, 'GSK3B_cyto': 0, 'GSK3B_nuc': 0, 'MEK': 1, 'NOTCH': 1, 'NOTCH_ic_cyto': 1, 'NOTCH_ic_nuc': 1, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'SNAI2_cyto': 1, 'SNAI2_nuc': 1, 'SOS_GRB2': 0, 'TGFBR': 1, 'TGFBR_icd': 1, 'TWIST1_nuc': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'ZEB2': 1, 'miR200': 0}</data>
+</node>
+<node id="A1">
+  <data key="d0">A1</data>
+  <data key="d1">{'AKT': 0, 'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'GLI_cyto': 0, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'GSK3B_nuc': 0, 'MEK': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'NOTCH_ic_nuc': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SNAI2_cyto': 0, 'SNAI2_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TGFBR_icd': 0, 'TWIST1_nuc': 0, 'ZEB1_cyto': 0, 'ZEB1_nuc': 0, 'ZEB2': 0, 'miR200': 1}</data>
+  <data key="d4">Attractor A1:
+ {'AKT': 0, 'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'GLI_cyto': 0, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'GSK3B_nuc': 0, 'MEK': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'NOTCH_ic_nuc': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SNAI2_cyto': 0, 'SNAI2_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TGFBR_icd': 0, 'TWIST1_nuc': 0, 'ZEB1_cyto': 0, 'ZEB1_nuc': 0, 'ZEB2': 0, 'miR200': 1}</data>
+</node>
+<node id="A2">
+  <data key="d0">A2</data>
+  <data key="d1">{'AKT': 0, 'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'Ecadherin': 1, 'Ecadherin_CTF': 0, 'GLI_cyto': 0, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'GSK3B_nuc': 0, 'MEK': 0, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'NOTCH_ic_nuc': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SNAI2_cyto': 0, 'SNAI2_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TGFBR_icd': 0, 'TWIST1_nuc': 0, 'ZEB1_cyto': 0, 'ZEB1_nuc': 0, 'ZEB2': 0, 'miR200': 1}</data>
+  <data key="d4">Attractor A2:
+ {'AKT': 0, 'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'Ecadherin': 1, 'Ecadherin_CTF': 0, 'GLI_cyto': 0, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'GSK3B_nuc': 0, 'MEK': 0, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'NOTCH_ic_nuc': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SNAI2_cyto': 0, 'SNAI2_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TGFBR_icd': 0, 'TWIST1_nuc': 0, 'ZEB1_cyto': 0, 'ZEB1_nuc': 0, 'ZEB2': 0, 'miR200': 1}</data>
+</node>
+<node id="A3">
+  <data key="d0">A3</data>
+  <data key="d1">{'AKT': 0, 'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Dest_compl': 0, 'Ecadherin': 1, 'Ecadherin_CTF': 0, 'GLI_cyto': 0, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'GSK3B_nuc': 0, 'MEK': 0, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'NOTCH_ic_nuc': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SNAI2_cyto': 0, 'SNAI2_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TGFBR_icd': 0, 'TWIST1_nuc': 0, 'ZEB1_cyto': 0, 'ZEB1_nuc': 0, 'ZEB2': 0, 'miR200': 1}</data>
+  <data key="d4">Attractor A3:
+ {'AKT': 0, 'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Dest_compl': 0, 'Ecadherin': 1, 'Ecadherin_CTF': 0, 'GLI_cyto': 0, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'GSK3B_nuc': 0, 'MEK': 0, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'NOTCH_ic_nuc': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SNAI2_cyto': 0, 'SNAI2_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TGFBR_icd': 0, 'TWIST1_nuc': 0, 'ZEB1_cyto': 0, 'ZEB1_nuc': 0, 'ZEB2': 0, 'miR200': 1}</data>
+</node>
+<node id="A4">
+  <data key="d0">A4</data>
+  <data key="d1">{'AKT': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'GLI_cyto': 0, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'GSK3B_nuc': 1, 'MEK': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'NOTCH_ic_nuc': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SNAI2_cyto': 0, 'SNAI2_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TGFBR_icd': 0, 'TWIST1_nuc': 0, 'ZEB1_cyto': 0, 'ZEB1_nuc': 0, 'ZEB2': 0, 'miR200': 1}</data>
+  <data key="d4">Attractor A4:
+ {'AKT': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'GLI_cyto': 0, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'GSK3B_nuc': 1, 'MEK': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'NOTCH_ic_nuc': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SNAI2_cyto': 0, 'SNAI2_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TGFBR_icd': 0, 'TWIST1_nuc': 0, 'ZEB1_cyto': 0, 'ZEB1_nuc': 0, 'ZEB2': 0, 'miR200': 1}</data>
+</node>
+<node id="A5">
+  <data key="d0">A5</data>
+  <data key="d1">{'AKT': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'Ecadherin': 1, 'Ecadherin_CTF': 0, 'GLI_cyto': 0, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'GSK3B_nuc': 1, 'MEK': 0, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'NOTCH_ic_nuc': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SNAI2_cyto': 0, 'SNAI2_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TGFBR_icd': 0, 'TWIST1_nuc': 0, 'ZEB1_cyto': 0, 'ZEB1_nuc': 0, 'ZEB2': 0, 'miR200': 1}</data>
+  <data key="d4">Attractor A5:
+ {'AKT': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'Ecadherin': 1, 'Ecadherin_CTF': 0, 'GLI_cyto': 0, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'GSK3B_nuc': 1, 'MEK': 0, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'NOTCH_ic_nuc': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SNAI2_cyto': 0, 'SNAI2_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TGFBR_icd': 0, 'TWIST1_nuc': 0, 'ZEB1_cyto': 0, 'ZEB1_nuc': 0, 'ZEB2': 0, 'miR200': 1}</data>
+</node>
+<node id="A6">
+  <data key="d0">A6</data>
+  <data key="d1">{'AKT': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Dest_compl': 0, 'Ecadherin': 1, 'Ecadherin_CTF': 0, 'GLI_cyto': 0, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'GSK3B_nuc': 1, 'MEK': 0, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'NOTCH_ic_nuc': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SNAI2_cyto': 0, 'SNAI2_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TGFBR_icd': 0, 'TWIST1_nuc': 0, 'ZEB1_cyto': 0, 'ZEB1_nuc': 0, 'ZEB2': 0, 'miR200': 1}</data>
+  <data key="d4">Attractor A6:
+ {'AKT': 0, 'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Dest_compl': 0, 'Ecadherin': 1, 'Ecadherin_CTF': 0, 'GLI_cyto': 0, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'GSK3B_nuc': 1, 'MEK': 0, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'NOTCH_ic_nuc': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SNAI2_cyto': 0, 'SNAI2_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TGFBR_icd': 0, 'TWIST1_nuc': 0, 'ZEB1_cyto': 0, 'ZEB1_nuc': 0, 'ZEB2': 0, 'miR200': 1}</data>
+</node>
+<edge source="0" target="1">
+  <data key="d5">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0}</data>
+  <data key="d6">{'AXIN2_cyto': 1}</data>
+</edge>
+<edge source="0" target="18">
+  <data key="d5">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0}</data>
+  <data key="d6">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+</edge>
+<edge source="0" target="24">
+  <data key="d5">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d6">{'AKT': 1, 'GSK3B_cyto': 0}</data>
+</edge>
+<edge source="0" target="25">
+  <data key="d5">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d6">{'AKT': 1, 'Bcatenin_memb': 0, 'Bcatenin_nuc': 1, 'GSK3B_nuc': 0, 'NOTCH': 1, 'NOTCH_ic_cyto': 1}</data>
+</edge>
+<edge source="0" target="26">
+  <data key="d5">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d6">{'AKT': 1, 'GSK3B_nuc': 0, 'MEK': 1, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}</data>
+</edge>
+<edge source="0" target="27">
+  <data key="d5">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'GLI_cyto': 0, 'NOTCH_ic_nuc': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'miR200': 1}</data>
+  <data key="d6">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}</data>
+</edge>
+<edge source="0" target="33">
+  <data key="d5">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Ecadherin_CTF': 0, 'GLI_cyto': 0, 'NOTCH': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'MEK': 0, 'NOTCH_ic_cyto': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'NOTCH_ic_nuc': 0, 'miR200': 1}</data>
+  <data key="d6">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}</data>
+</edge>
+<edge source="1" target="2">
+  <data key="d5">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0}</data>
+  <data key="d6">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+</edge>
+<edge source="1" target="8">
+  <data key="d5">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d6">{'AKT': 1, 'GSK3B_cyto': 0}</data>
+</edge>
+<edge source="1" target="9">
+  <data key="d5">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d6">{'Bcatenin_memb': 0, 'Bcatenin_nuc': 1, 'NOTCH': 1, 'NOTCH_ic_cyto': 1}</data>
+</edge>
+<edge source="1" target="10">
+  <data key="d5">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d6">{'AKT': 1, 'MEK': 1, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}</data>
+</edge>
+<edge source="1" target="11">
+  <data key="d5">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1, 'SOS_GRB2': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d6">{'GLI_cyto': 1, 'GLI_nuc': 1, 'GSK3B_cyto': 0, 'MEK': 1, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}</data>
+</edge>
+<edge source="1" target="12">
+  <data key="d5">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'Ecadherin_CTF': 0, 'GLI_cyto': 0, 'NOTCH': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'MEK': 0, 'NOTCH_ic_cyto': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'NOTCH_ic_nuc': 0, 'miR200': 1}</data>
+  <data key="d6">{'AKT': 0, 'Bcatenin_memb': 1, 'Bcatenin_nuc': 0, 'Ecadherin': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}</data>
+</edge>
+<edge source="1" target="15">
+  <data key="d5">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'GLI_cyto': 0, 'NOTCH_ic_nuc': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'miR200': 1}</data>
+  <data key="d6">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'SOS_GRB2': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}</data>
+</edge>
+<edge source="2" target="3">
+  <data key="d5">{'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d6">{'AKT': 1, 'GSK3B_cyto': 0}</data>
+</edge>
+<edge source="2" target="4">
+  <data key="d5">{'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d6">{'Bcatenin_nuc': 1, 'NOTCH': 1, 'NOTCH_ic_cyto': 1}</data>
+</edge>
+<edge source="2" target="5">
+  <data key="d5">{'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d6">{'AKT': 1, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}</data>
+</edge>
+<edge source="2" target="6">
+  <data key="d5">{'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d6">{'GLI_cyto': 1, 'GLI_nuc': 1, 'GSK3B_cyto': 0, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}</data>
+</edge>
+<edge source="2" target="7">
+  <data key="d5">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'GLI_cyto': 0, 'NOTCH_ic_nuc': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'miR200': 1}</data>
+  <data key="d6">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}</data>
+</edge>
+<edge source="3" target="A0">
+  <data key="d5"></data>
+</edge>
+<edge source="4" target="A0">
+  <data key="d5"></data>
+</edge>
+<edge source="5" target="A0">
+  <data key="d5"></data>
+</edge>
+<edge source="6" target="A0">
+  <data key="d5"></data>
+</edge>
+<edge source="7" target="A1">
+  <data key="d5"></data>
+</edge>
+<edge source="8" target="A0">
+  <data key="d5"></data>
+</edge>
+<edge source="9" target="A0">
+  <data key="d5"></data>
+</edge>
+<edge source="10" target="A0">
+  <data key="d5"></data>
+</edge>
+<edge source="11" target="A0">
+  <data key="d5"></data>
+</edge>
+<edge source="12" target="13">
+  <data key="d5">{'Dest_compl': 1}</data>
+  <data key="d6">{'Dest_compl': 1}</data>
+</edge>
+<edge source="12" target="14">
+  <data key="d5">{'Dest_compl': 0}</data>
+  <data key="d6">{'Dest_compl': 0}</data>
+</edge>
+<edge source="13" target="A2">
+  <data key="d5"></data>
+</edge>
+<edge source="14" target="A3">
+  <data key="d5"></data>
+</edge>
+<edge source="15" target="16">
+  <data key="d5">{'Bcatenin_memb': 1, 'Ecadherin': 1, 'Ecadherin_CTF': 0, 'MEK': 0}</data>
+  <data key="d6">{'Bcatenin_memb': 1, 'Ecadherin': 1}</data>
+</edge>
+<edge source="15" target="17">
+  <data key="d5">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1}</data>
+  <data key="d6">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+</edge>
+<edge source="16" target="A2">
+  <data key="d5"></data>
+</edge>
+<edge source="17" target="A1">
+  <data key="d5"></data>
+</edge>
+<edge source="18" target="2">
+  <data key="d5">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0}</data>
+  <data key="d6">{'AXIN2_cyto': 1}</data>
+</edge>
+<edge source="18" target="19">
+  <data key="d5">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d6">{'AKT': 1, 'GSK3B_cyto': 0}</data>
+</edge>
+<edge source="18" target="20">
+  <data key="d5">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d6">{'Bcatenin_nuc': 1, 'NOTCH': 1, 'NOTCH_ic_cyto': 1}</data>
+</edge>
+<edge source="18" target="21">
+  <data key="d5">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0, 'AKT': 1, 'GSK3B_cyto': 0, 'Dest_compl': 0, 'SNAI1_cyto': 1, 'SNAI2_cyto': 1, 'TWIST1_nuc': 1, 'TGFBR': 1, 'Bcatenin_nuc': 1, 'SNAI2_nuc': 1, 'TGFBR_icd': 1, 'SMAD_cyto': 1, 'GLI_cyto': 1, 'NOTCH': 1, 'SNAI1_nuc': 1, 'miR200': 0, 'NOTCH_ic_cyto': 1, 'ZEB1_cyto': 1, 'NOTCH_ic_nuc': 1, 'ZEB2': 1, 'ZEB1_nuc': 1, 'SMAD_nuc': 1, 'GLI_nuc': 1}</data>
+  <data key="d6">{'AKT': 1, 'GSK3B_nuc': 0, 'SMAD_cyto': 1, 'SMAD_nuc': 1, 'SNAI1_cyto': 1, 'SNAI1_nuc': 1, 'TGFBR': 1, 'ZEB1_cyto': 1, 'ZEB1_nuc': 1, 'miR200': 0}</data>
+</edge>
+<edge source="18" target="22">
+  <data key="d5">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0, 'GLI_cyto': 0, 'NOTCH_ic_nuc': 0, 'SNAI2_cyto': 0, 'TGFBR_icd': 0, 'ZEB1_cyto': 0, 'ZEB2': 0, 'ZEB1_nuc': 0, 'SNAI2_nuc': 0, 'miR200': 1}</data>
+  <data key="d6">{'AKT': 0, 'Bcatenin_nuc': 0, 'Dest_compl': 1, 'GLI_nuc': 0, 'GSK3B_cyto': 1, 'NOTCH': 0, 'NOTCH_ic_cyto': 0, 'SMAD_cyto': 0, 'SMAD_nuc': 0, 'SNAI1_cyto': 0, 'SNAI1_nuc': 0, 'TGFBR': 0, 'TWIST1_nuc': 0}</data>
+</edge>
+<edge source="19" target="A0">
+  <data key="d5"></data>
+</edge>
+<edge source="20" target="A0">
+  <data key="d5"></data>
+</edge>
+<edge source="21" target="A0">
+  <data key="d5"></data>
+</edge>
+<edge source="22" target="7">
+  <data key="d5">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0}</data>
+  <data key="d6">{'AXIN2_cyto': 1}</data>
+</edge>
+<edge source="22" target="23">
+  <data key="d5">{'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'GSK3B_nuc': 1}</data>
+  <data key="d6">{'AXIN2_cyto': 0, 'AXIN2_nuc': 1}</data>
+</edge>
+<edge source="23" target="A4">
+  <data key="d5"></data>
+</edge>
+<edge source="24" target="A0">
+  <data key="d5"></data>
+</edge>
+<edge source="25" target="A0">
+  <data key="d5"></data>
+</edge>
+<edge source="26" target="A0">
+  <data key="d5"></data>
+</edge>
+<edge source="27" target="15">
+  <data key="d5">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0}</data>
+  <data key="d6">{'AXIN2_cyto': 1}</data>
+</edge>
+<edge source="27" target="28">
+  <data key="d5">{'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'GSK3B_nuc': 1}</data>
+  <data key="d6">{'AXIN2_cyto': 0, 'AXIN2_nuc': 1}</data>
+</edge>
+<edge source="27" target="31">
+  <data key="d5">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1}</data>
+  <data key="d6">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+</edge>
+<edge source="27" target="32">
+  <data key="d5">{'Bcatenin_memb': 1, 'Ecadherin': 1, 'Ecadherin_CTF': 0, 'MEK': 0}</data>
+  <data key="d6">{'Bcatenin_memb': 1, 'Ecadherin': 1}</data>
+</edge>
+<edge source="28" target="29">
+  <data key="d5">{'Bcatenin_memb': 1, 'Ecadherin': 1, 'Ecadherin_CTF': 0, 'MEK': 0}</data>
+  <data key="d6">{'Bcatenin_memb': 1, 'Ecadherin': 1}</data>
+</edge>
+<edge source="28" target="30">
+  <data key="d5">{'Bcatenin_memb': 0, 'Ecadherin': 0, 'Ecadherin_CTF': 1, 'MEK': 1}</data>
+  <data key="d6">{'Bcatenin_memb': 0, 'Ecadherin': 0}</data>
+</edge>
+<edge source="29" target="A5">
+  <data key="d5"></data>
+</edge>
+<edge source="30" target="A4">
+  <data key="d5"></data>
+</edge>
+<edge source="31" target="17">
+  <data key="d5">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0}</data>
+  <data key="d6">{'AXIN2_cyto': 1}</data>
+</edge>
+<edge source="31" target="30">
+  <data key="d5">{'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'GSK3B_nuc': 1}</data>
+  <data key="d6">{'AXIN2_cyto': 0, 'AXIN2_nuc': 1}</data>
+</edge>
+<edge source="32" target="16">
+  <data key="d5">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0}</data>
+  <data key="d6">{'AXIN2_cyto': 1}</data>
+</edge>
+<edge source="32" target="29">
+  <data key="d5">{'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'GSK3B_nuc': 1}</data>
+  <data key="d6">{'AXIN2_cyto': 0, 'AXIN2_nuc': 1}</data>
+</edge>
+<edge source="33" target="12">
+  <data key="d5">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0}</data>
+  <data key="d6">{'AXIN2_cyto': 1}</data>
+</edge>
+<edge source="33" target="34">
+  <data key="d5">{'Dest_compl': 1}</data>
+  <data key="d6">{'Dest_compl': 1}</data>
+</edge>
+<edge source="33" target="36">
+  <data key="d5">{'Dest_compl': 0}</data>
+  <data key="d6">{'Dest_compl': 0}</data>
+</edge>
+<edge source="33" target="38">
+  <data key="d5">{'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'GSK3B_nuc': 1}</data>
+  <data key="d6">{'AXIN2_cyto': 0, 'AXIN2_nuc': 1}</data>
+</edge>
+<edge source="34" target="13">
+  <data key="d5">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0}</data>
+  <data key="d6">{'AXIN2_cyto': 1}</data>
+</edge>
+<edge source="34" target="35">
+  <data key="d5">{'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'GSK3B_nuc': 1}</data>
+  <data key="d6">{'AXIN2_cyto': 0, 'AXIN2_nuc': 1}</data>
+</edge>
+<edge source="35" target="A5">
+  <data key="d5"></data>
+</edge>
+<edge source="36" target="14">
+  <data key="d5">{'AXIN2_cyto': 1, 'AXIN2_nuc': 0, 'GSK3B_nuc': 0}</data>
+  <data key="d6">{'AXIN2_cyto': 1}</data>
+</edge>
+<edge source="36" target="37">
+  <data key="d5">{'AXIN2_cyto': 0, 'AXIN2_nuc': 1, 'GSK3B_nuc': 1}</data>
+  <data key="d6">{'AXIN2_cyto': 0, 'AXIN2_nuc': 1}</data>
+</edge>
+<edge source="37" target="A6">
+  <data key="d5"></data>
+</edge>
+<edge source="38" target="35">
+  <data key="d5">{'Dest_compl': 1}</data>
+  <data key="d6">{'Dest_compl': 1}</data>
+</edge>
+<edge source="38" target="37">
+  <data key="d5">{'Dest_compl': 0}</data>
+  <data key="d6">{'Dest_compl': 0}</data>
+</edge>
+</graph></graphml>
