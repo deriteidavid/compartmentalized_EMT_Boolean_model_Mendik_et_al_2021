@@ -27,7 +27,7 @@ Modifications:
 - addition of different updating schemes (e.g. weighted general asynchronous, random order asynchronous, weighted random order asynchronous)
 - implementation of short term perturbations to model noise and long term perturbations to model in silico KI/KO experiments
 ### Attractor repertoire and stable motif analysis
-This module contains two Jupyter notebooks, which contain the step-by-step analysis of identifying the attractors and stable motif succession of the original 19 node EMT model of Steinway et al. and the new 30 node compartmentalized EMT model respectively. The code is using the latest algorithms by Rozum et al. The original tool is available at: https://github.com/jcrozum/StableMotifs.
+This module contains two Jupyter notebooks, which contain the step-by-step analysis of identifying the attractors and stable motif succession of the original 19 node EMT model of Steinway et al. and the new 30 node compartmentalized EMT model respectively. The code is using the latest algorithms by Rozum et al. The original tool is available at: https://github.com/jcrozum/PyStableMotifs.
 
 ### Attractor probabilities
 The module contains code of for the numerical analysis for the stationary probability of the attractors in the presence of noise. The method uses a noisy update, scheme, where node updates can return the wrong node state with probability _p_. The models then are run for a large number of steps, initiated from each attractor state (which they can leave due to the noise) and finally the visitation probabilities are calculated from the simulation trajectories. The analysis is done in a step-by-step manner in a Jupyter notebook and summerized in an exported excel table.
