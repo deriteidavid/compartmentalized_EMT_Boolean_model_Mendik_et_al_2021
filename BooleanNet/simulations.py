@@ -3,9 +3,22 @@ import pandas as pd
 import __init__, util, tokenizer
 import os
 
+import vizualization
+
 
 def simulation(folder, init_files, simulation_mode, perturbation_type, perturbed_comb, iterate, steps,
-               phenotype, attractor_file=None, noise=None, perturbed_nodes=None):
+               phenotype, attractor_file=None, noise=None, perturbed_nodes=None, dist_from=None, omit=None,
+               pathway_mapping_file=None):
+    if attractor_file is None:
+        attractor_folder = os.path.normpath(folder + "/01_Attractors")
+        attractor_file = "attractorList.txt"
+        try:
+            os.makedirs(attractor_folder)
+        except:
+            pass
+        with open(os.path.normpath(attractor_folder + "/" + attractor_file), 'w') as fp:
+            pass
+
     coll = util.Collector(dir=folder, **dict(init_files, **{"attractors": str(attractor_file)}))
 
     if noise is not None:
@@ -96,9 +109,14 @@ def simulation(folder, init_files, simulation_mode, perturbation_type, perturbed
                         break
 
     # save results
-    util.fsave(pd.DataFrame(coll.attractor).T, fname=attractor_file, dir=folder)
-    dir = util.output_dir(folder, simulation_mode, perturbation_type, iterate, steps)
+    initial_states = pd.DataFrame(coll.init_state)
+    final_states = pd.DataFrame(coll.final_state)
+    attractors = pd.DataFrame(coll.attractor)
     trajectories = util.reshape_trajectory_info(coll.trajectory)
+    node_activation = util.average_node_activation(coll.node_state)
+
+    util.fsave(attractors.T, fname=attractor_file, dir=folder)
+    dir = util.output_dir(folder, simulation_mode, perturbation_type, iterate, steps)
 
     if perturbation_type == "Noise":
         attactor_stability = pd.DataFrame(columns=init_files.keys())
@@ -114,8 +132,13 @@ def simulation(folder, init_files, simulation_mode, perturbation_type, perturbed
 
         util.fsave(attactor_stability, fname=os.path.normpath(dir + "/Attractor_stability.xlsx"))
 
+    if perturbation_type == "KI/KO" and dist_from is not None:
+        vizualization.heatmap(final_states, attractors, dir, distance_from=dist_from, omit=omit)
 
-    util.fsave(pd.DataFrame(coll.init_state), fname=os.path.normpath(dir + "/Initial_states.xlsx"))
-    util.fsave(pd.DataFrame(coll.final_state), fname=os.path.normpath(dir + "/Final_states.xlsx"))
+    if pathway_mapping_file is not None:
+        vizualization.pathway_activation(node_activation, pathway_mapping_file, dir)
+
+    util.fsave(initial_states, fname=os.path.normpath(dir + "/Initial_states.xlsx"))
+    util.fsave(final_states, fname=os.path.normpath(dir + "/Final_states.xlsx"))
     util.fsave(trajectories, fname=os.path.normpath(dir + "/Trajectories.xlsx"))
 

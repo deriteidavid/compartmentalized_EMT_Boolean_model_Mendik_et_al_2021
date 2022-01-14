@@ -18,12 +18,14 @@ sim_modes = {"sync": "Synchronous", "time": "Time", "async": "General asynchrono
 perturb_type = ["None", "Noise", "KI/KO"]
 nodes = []
 
+
 class NewPheno(QDialog):
     """
     This "window" is a QWidget. If it has no parent, it
     will appear as a free-floating window as we want.
     """
-    def __init__(self, parent: QWidget=None):
+
+    def __init__(self, parent: QWidget = None):
         super().__init__(parent)
 
         self.layout = QGridLayout()
@@ -79,8 +81,8 @@ class App(QMainWindow):
         self.title = 'BooleanNet'
         self.left = 0
         self.top = 30
-        self.width = 1220
-        self.height = 800
+        self.width = 1820
+        self.height = 770
         self.initUI()
 
     def initUI(self):
@@ -95,7 +97,7 @@ class App(QMainWindow):
             "<td align='justify'; width=400>Select model directory containing initial state and "
             "Boolean rule definitions</td>")
         self.folder_line = QLineEdit(self)
-        self.folder_line.setGeometry(QRect(200, 25, 1000, 25))
+        self.folder_line.setGeometry(QRect(200, 25, 1600, 25))
         self.folder_line.setToolTip("<td align='justify'; width=400>Input the model directory location or select model "
                                     "directory containing initial state and Boolean rule definitions by clicking on the "
                                     "button on the left</td>")
@@ -107,7 +109,7 @@ class App(QMainWindow):
 
         # Create box containing input file data
         self.input_box = QGroupBox("Input files", self)
-        self.input_box.setGeometry(QRect(20, 70, 580, 370))
+        self.input_box.setGeometry(QRect(20, 70, 580, 680))
         self.input_box.setFont(Bfont)
         self.input_box.setAutoFillBackground(False)
         self.input_box.setFlat(True)
@@ -119,19 +121,21 @@ class App(QMainWindow):
         self.attractor_file_button.setShortcut('Ctrl+O')
         self.attractor_file_button.clicked.connect(self.select_file)
         self.attractor_file_button.setGeometry(QRect(10, 20, 170, 25))
-        self.attractor_file_button.setToolTip("<td align='justify'; width=400>Select file in which attractors are saved if it "
-                                    "exists</td>")
+        self.attractor_file_button.setToolTip(
+            "<td align='justify'; width=400>Select file in which attractors are saved if it "
+            "exists</td>")
         self.attractor_file_line = QLineEdit(parent=self.input_box)
         self.attractor_file_line.setGeometry(QRect(190, 20, 380, 25))
-        self.attractor_file_line.setToolTip("<td align='justify'; width=400>Input the model directory location or select model "
-                                    "directory containing initial state and Boolean rule definitions by clicking on the "
-                                    "button on the left</td>")
+        self.attractor_file_line.setToolTip(
+            "<td align='justify'; width=400>Input the model directory location or select model "
+            "directory containing initial state and Boolean rule definitions by clicking on the "
+            "button on the left</td>")
         self.init_file_table = QTableWidget(parent=self.input_box)
-        self.init_file_table.setGeometry(QRect(10, 50, 560, 310))
+        self.init_file_table.setGeometry(QRect(10, 50, 560, 620))
         self.init_file_table.setColumnCount(2)
         self.init_file_table.setHorizontalHeaderLabels(["Phenotype", "Input file"])
-        self.init_file_table.setColumnWidth(0, int(self.init_file_table.width()/2))
-        self.init_file_table.setColumnWidth(1, int(self.init_file_table.width()/2))
+        self.init_file_table.setColumnWidth(0, int(self.init_file_table.width() / 2))
+        self.init_file_table.setColumnWidth(1, int(self.init_file_table.width() / 2))
 
         # Create box containing simulation information
         self.sim_box = QGroupBox("Simulation information", self)
@@ -222,7 +226,7 @@ class App(QMainWindow):
         self.steps_spin.setValue(20000)
 
         # Create box containing simulation information
-        self.perturb_box = QGroupBox("Petrurbation information", self)
+        self.perturb_box = QGroupBox("Perturbation information", self)
         self.perturb_box.setGeometry(QRect(620, 260, 580, 180))
         self.perturb_box.setFont(Bfont)
         self.perturb_box.setAutoFillBackground(False)
@@ -257,8 +261,9 @@ class App(QMainWindow):
         self.perturb_combo_text.setGeometry(QRect(10, 70, 300, 25))
         self.perturb_combo_spin = QSpinBox(parent=self.perturb_box)
         self.perturb_combo_spin.setGeometry(QRect(275, 70, 300, 25))
-        self.perturb_combo_spin.setToolTip("<td align='justify'; width=400>Number of <b>node perturbation combinations</b>"
-                                        " represent the number of nodes that should be perturbed simultaneously</td>")
+        self.perturb_combo_spin.setToolTip(
+            "<td align='justify'; width=400>Number of <b>node perturbation combinations</b>"
+            " represent the number of nodes that should be perturbed simultaneously</td>")
         self.perturb_combo_spin.setRange(1, len(nodes))
 
         self.noise_text = QLabel("Length of perturbation", parent=self.perturb_box)
@@ -272,7 +277,7 @@ class App(QMainWindow):
         if self.sim_mode_combo.currentIndex() > 0:
             self.noise_spin.setValue(0.02)
         else:
-            self.noise_spin.setValue(100/self.steps_spin.value())
+            self.noise_spin.setValue(100 / self.steps_spin.value())
 
         if self.perturb_type_combo.currentIndex() == 0:
             self.perturb_combo_text.setEnabled(False)
@@ -303,12 +308,12 @@ class App(QMainWindow):
         self.node_table.setGeometry(QRect(10, 20, 560, 270))
         self.node_table.setColumnCount(2)
         self.node_table.setHorizontalHeaderLabels(["Node", "Perturbed"])
-        self.node_table.setColumnWidth(0, int(self.init_file_table.width()/2))
-        self.node_table.setColumnWidth(1, int(self.init_file_table.width()/2))
+        self.node_table.setColumnWidth(0, int(self.init_file_table.width() / 2))
+        self.node_table.setColumnWidth(1, int(self.init_file_table.width() / 2))
 
         # Create box containing input file data
         self.pheno_box = QGroupBox("Phenotype", self)
-        self.pheno_box.setGeometry(QRect(20, 450, 580, 300))
+        self.pheno_box.setGeometry(QRect(1220, 70, 580, 440))
         self.pheno_box.setFont(Bfont)
         self.pheno_box.setAutoFillBackground(False)
         self.pheno_box.setFlat(True)
@@ -317,7 +322,7 @@ class App(QMainWindow):
         self.pheno_box.setStyleSheet("QGroupBox {border: 1px solid gray; border-radius: 5px;  }")
 
         self.pheno_table = QTableWidget(parent=self.pheno_box)
-        self.pheno_table.setGeometry(QRect(10, 20, 560, 230))
+        self.pheno_table.setGeometry(QRect(10, 20, 560, 370))
         self.pheno_table.setColumnCount(2)
         self.pheno_table.setRowCount(4)
         self.pheno_table.setHorizontalHeaderLabels(["AJ", "VIM"])
@@ -335,18 +340,63 @@ class App(QMainWindow):
 
         self.clear_phenotype = QPushButton('Clear table', parent=self.pheno_box)
         self.clear_phenotype.clicked.connect(self.clear)
-        self.clear_phenotype.setGeometry(QRect(400, 260, 170, 30))
+        self.clear_phenotype.setGeometry(QRect(400, 400, 170, 30))
         self.clear_phenotype.setEnabled(False)
 
         self.add_phenotype = QPushButton('Add new phenotype', parent=self.pheno_box)
         self.add_phenotype.clicked.connect(self.add_row)
-        self.add_phenotype.setGeometry(QRect(220, 260, 170, 30))
+        self.add_phenotype.setGeometry(QRect(220, 400, 170, 30))
         self.add_phenotype.setEnabled(False)
+
+        # Create box containing heatmap settings
+        self.heatmap_box = QGroupBox("Heatmap showing KI/KO perturbation results", self)
+        self.heatmap_box.setGeometry(QRect(1220, 520, 580, 110))
+        self.heatmap_box.setFont(Bfont)
+        self.heatmap_box.setAutoFillBackground(False)
+        self.heatmap_box.setFlat(True)
+        self.heatmap_box.setCheckable(True)
+        self.heatmap_box.setChecked(False)
+        self.heatmap_box.setStyleSheet("QGroupBox {border: 1px solid gray; border-radius: 5px;  }")
+
+        self.dist_from_text = QLabel("Distance from", parent=self.heatmap_box)
+        self.dist_from_text.setGeometry(QRect(10, 30, 300, 25))
+        self.dist_from_combo = QComboBox(parent=self.heatmap_box)
+        self.dist_from_combo.setGeometry(QRect(275, 30, 300, 25))
+        self.dist_from_combo.setToolTip("<td align='justify'; width=400><b>Initial state</b>  from which Hamming"
+                                        " distance will be calculated and used in to order the histogram columns</td>")
+
+        self.omit_text = QLabel("Omit attractor perturbation", parent=self.heatmap_box)
+        self.omit_text.setGeometry(QRect(10, 70, 300, 25))
+        self.omit_combo = QComboBox(parent=self.heatmap_box)
+        self.omit_combo.setGeometry(QRect(275, 70, 300, 25))
+        self.omit_combo.setToolTip("<td align='justify'; width=400>Perturbations of <b>initial states</b>"
+                                   " omited from the histogram </td>")
+
+        # Create box containing pathway activation visualization settings
+        self.path_activ_box = QGroupBox("Pathway activation plot", self)
+        self.path_activ_box.setGeometry(QRect(1220, 640, 580, 60))
+        self.path_activ_box.setFont(Bfont)
+        self.path_activ_box.setAutoFillBackground(False)
+        self.path_activ_box.setFlat(True)
+        self.path_activ_box.setCheckable(True)
+        self.path_activ_box.setChecked(False)
+        self.path_activ_box.setStyleSheet("QGroupBox {border: 1px solid gray; border-radius: 5px;  }")
+
+        self.path_map_button = QPushButton("Node-to-pathway mapping file", parent=self.path_activ_box)
+        self.path_map_button.clicked.connect(self.select_path_map_file)
+        self.path_map_button.setGeometry(QRect(10, 20, 180, 25))
+        self.path_map_button.setToolTip("<td align='justify'; width=400>Select <b>pathway mapping file</b>  mapping "
+                                        "nodes to pathways to be use for pathway activation plotting</td>")
+
+        self.path_map_line = QLineEdit(self.path_activ_box)
+        self.path_map_line.setGeometry(QRect(195, 20, 370, 25))
+        self.path_map_line.setToolTip("<td align='justify'; width=400>Input file mapping nodes to pathways to be used"
+                                      "for pathway activation plotting</td>")
 
         self.run_button = QPushButton('Run simulation', self)
         self.run_button.clicked.connect(self.get_output)
         self.run_button.setShortcut('Ctrl+R')
-        self.run_button.setGeometry(QRect(1000, 760, 170, 30))
+        self.run_button.setGeometry(QRect(1235, 710, 550, 30))
         self.run_button.setEnabled(False)
         self.show()
 
@@ -370,11 +420,13 @@ class App(QMainWindow):
         if "attractorList.txt" in files:
             self.attractor_file_line.setText("attractorList.txt")
 
-
-
     def select_file(self):
         fname, _ = QFileDialog.getOpenFileName(self, 'Open file', self.folder_line.text())
         self.attractor_file_line.setText(fname.split("/")[-1])
+
+    def select_path_map_file(self):
+        fname, _ = QFileDialog.getOpenFileName(self, 'Open file', self.folder_line.text())
+        self.path_map_line.setText(fname)
 
     def change_iterations(self):
         if self.sim_mode_combo.currentIndex() > 0:
@@ -402,6 +454,10 @@ class App(QMainWindow):
                 pheno = file.split(".txt")[0]
 
             self.init_file_table.setItem(rowPosition, 0, QTableWidgetItem(pheno))
+            self.dist_from_combo.addItem(pheno)
+            self.omit_combo.addItem(pheno)
+        if self.omit_combo.currentText() == self.dist_from_combo.currentText():
+            self.omit_combo.setCurrentIndex(1)
 
         text = util.fopen(file, path)
 
@@ -420,6 +476,8 @@ class App(QMainWindow):
             self.pheno_table.setHorizontalHeaderLabels(["AJ", "Vimentin"])
         elif "Ecadherin" in nodes and "Vimentin" in nodes:
             self.pheno_table.setHorizontalHeaderLabels(["Ecadherin", "Vimentin"])
+        elif "Ecadherin" in nodes:
+            self.pheno_table.setHorizontalHeaderLabels(["Ecadherin", "SNAI1_nuc"])
 
     def change_node_box(self):
         global nodes
@@ -451,7 +509,6 @@ class App(QMainWindow):
             for i in range(0, self.node_table.rowCount()):
                 self.node_table.cellWidget(i, 1).setChecked(False)
 
-
     def perturb_info(self):
         if self.perturb_type_combo.currentIndex() == 0:
             self.perturb_combo_text.setEnabled(False)
@@ -467,6 +524,8 @@ class App(QMainWindow):
         else:
             self.noise_text.setEnabled(False)
             self.noise_spin.setEnabled(False)
+            self.heatmap_box.setChecked(True)
+            self.heatmap_box.setChecked(True)
 
     def clear(self):
         self.pheno_table.clear()
@@ -478,7 +537,7 @@ class App(QMainWindow):
             pheno = pheno_dialog.message()
             pheno_dialog.deleteLater()
 
-    #To-do: add data to table
+    # To-do: add data to table
 
     def get_output(self):
         self.run_button.setEnabled(False)
@@ -487,7 +546,8 @@ class App(QMainWindow):
         init_files = {}
         for row in range(self.init_file_table.rowCount()):
             if self.init_file_table.item(row, 0) is not None:
-                init_files[str(self.init_file_table.item(row, 0).text())] = str(self.init_file_table.item(row, 1).text())
+                init_files[str(self.init_file_table.item(row, 0).text())] = str(
+                    self.init_file_table.item(row, 1).text())
         sim_mode = list(sim_modes.keys())[list(sim_modes.values()).index(self.sim_mode_combo.currentText())]
         perturb_type = self.perturb_type_combo.currentText()
         perturb_comb = self.perturb_combo_spin.value()
@@ -496,7 +556,7 @@ class App(QMainWindow):
         if self.noise_spin.isEnabled():
             noise = self.noise_spin.value()
         else:
-            noise=None
+            noise = None
         attractor_file = self.attractor_file_line.text()
 
         if len(attractor_file) == 0:
@@ -531,9 +591,22 @@ class App(QMainWindow):
 
         phenotypes = dict(zip(pheno, node_states))
 
+        if self.heatmap_box.isChecked():
+            dist_from = self.dist_from_combo.currentText()
+            omit = self.omit_combo.currentText()
+        else:
+            dist_from = None
+            omit = None
+        
+        if self.path_activ_box.isChecked() and len(self.path_map_line.text()) != 0:
+            node_to_pathway_map = self.path_map_line.text()
+        else:
+            node_to_pathway_map = None
 
         simulations.simulation(folder, init_files, sim_mode, perturb_type, perturb_comb, iterations, steps,
-                               phenotype=phenotypes, attractor_file=attractor_file, noise=noise, perturbed_nodes=node_perturbations)
+                               phenotype=phenotypes, attractor_file=attractor_file, noise=noise,
+                               perturbed_nodes=node_perturbations, dist_from=dist_from, omit=omit,
+                               pathway_mapping_file=node_to_pathway_map)
         self.close()
 
 
@@ -556,6 +629,6 @@ if __name__ == '__main__':
     dark_palette.setColor(QPalette.HighlightedText, Qt.black)
 
     app.setStyle('Fusion')
-    #app.setPalette(dark_palette)
+    # app.setPalette(dark_palette)
     ex = App()
     sys.exit(app.exec_())

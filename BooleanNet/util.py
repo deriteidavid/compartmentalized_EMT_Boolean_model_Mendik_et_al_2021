@@ -298,15 +298,16 @@ def fsave(obj, fname="file.txt", dir=None):
         file.close()
     elif ".xlsx" in fname:
         now = datetime.now()
-        writer = pd.ExcelWriter(fname, engine='openpyxl')
 
         if os.path.isfile(fname):
             book = load_workbook(fname)
+            writer = pd.ExcelWriter(fname, engine='openpyxl')
             writer.book = book
+        else:
+            writer = pd.ExcelWriter(fname, engine='openpyxl')
 
         obj.to_excel(writer, sheet_name=now.strftime("%Y%m%d_%H%M"))
         writer.save()
-        writer.close()
 
 
 def fopen(fname="file.txt", dir=None):
@@ -334,6 +335,17 @@ def reshape_trajectory_info(trajectories):
     trajectories.columns = ["count"] + list(trajectories.columns[1:])
     return trajectories
 
+def average_node_activation(node_state):
+    average_node_activity = {}
+    for pertubation, node_states in node_state.items():
+        average_activity = pd.DataFrame()
+        for node in node_states.keys():
+            node_activation = pd.DataFrame(node_state[pertubation][node]).T
+            node_activation = node_activation.fillna(method='ffill')
+            average_activity[node]=node_activation.mean(axis=1)
+        average_node_activity[pertubation] = average_activity
+
+    return average_node_activity
 
 class Collector(object):
     """
@@ -382,12 +394,27 @@ class Collector(object):
         else:
             self.init_state[name]["count"] += 1
 
-    def collect(self, states, nodes):
+    def collect(self, states, name):
         """Collects the node values into a list"""
-        nodes = as_set(nodes)
+        nodes = as_set(states[0].keys())
         for node in nodes:
-            values = [int(getattr(state, node)) for state in states]
-            self.node_state.setdefault(node, []).append(values)
+            print(node)
+            LAST_STATE = None
+            for state in states:
+                if LAST_STATE is None:
+                    values = [int(getattr(state, node))]
+                    LAST_STATE = state
+                elif LAST_STATE != state:
+                    values.append(int(getattr(state, node)))
+                    LAST_STATE = state
+
+            if name in self.node_state.keys():
+                if node in self.node_state[name].keys():
+                    self.node_state[name][node].append(values)
+                else:
+                    self.node_state[name][node] = [values]
+            else:
+                self.node_state[name] = {node: [values]}
 
     def trajectories(self, states, name):
         """Collection of node changes."""
@@ -428,6 +455,7 @@ class Collector(object):
             self.trajectories(states, name + "_" + attractor_name)
             self.initial_states(states[0], name)
             self.final_states(states, name + "_" + attractor_name, index)
+            self.collect(states, name + "_" + attractor_name)
 
     def final_states(self, states, name, index):
         """Collect final states"""
