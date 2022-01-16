@@ -7,7 +7,7 @@ import vizualization
 
 
 def simulation(folder, init_files, simulation_mode, perturbation_type, perturbed_comb, iterate, steps,
-               phenotype, attractor_file=None, noise=None, perturbed_nodes=None, dist_from=None, omit=None,
+               phenotype, attractor_file=None, noise=None, perturbed_nodes=None, dist_from=None,
                pathway_mapping_file=None):
     if attractor_file is None:
         attractor_folder = os.path.normpath(folder + "/01_Attractors")
@@ -133,7 +133,7 @@ def simulation(folder, init_files, simulation_mode, perturbation_type, perturbed
         util.fsave(attactor_stability, fname=os.path.normpath(dir + "/Attractor_stability.xlsx"))
 
     if perturbation_type == "KI/KO" and dist_from is not None:
-        vizualization.heatmap(final_states, attractors, dir, distance_from=dist_from, omit=omit)
+        vizualization.heatmap(final_states, attractors, dir, distance_from=dist_from)
 
     if pathway_mapping_file is not None:
         vizualization.pathway_activation(node_activation, pathway_mapping_file, dir)

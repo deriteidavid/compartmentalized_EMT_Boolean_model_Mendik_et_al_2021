@@ -136,3 +136,119 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+BooleanNet/data/04_transloc_EMT19_translocv4.4.xlsx
+BooleanNet/data/04_transloc_EMT19_translocv4.4_TGFBR_true.xlsx
+BooleanNet/data/04_transloc_EMT19_translocv4.0.2.xlsx
+BooleanNet/data/04_Simulations/01_Single cell/01_Synchronous/03_KI or KO perturbation/1 iteration 20000 steps/Trajectories.xlsx
+BooleanNet/data/04_Simulations/01_Single cell/01_Synchronous/03_KI or KO perturbation/1 iteration 20000 steps/Initial_states.xlsx
+BooleanNet/data/04_Simulations/01_Single cell/01_Synchronous/03_KI or KO perturbation/1 iteration 20000 steps/Final_states.xlsx
+BooleanNet/data/04_Simulations/01_Single cell/01_Synchronous/03_KI or KO perturbation/1 iteration 20000 steps/20211229_heatmap.png
+BooleanNet/data/02_Initial states/EMT_M.txt
+BooleanNet/data/02_Initial states/EMT_E.txt
+BooleanNet/data/01_Attractors/attractorList.txt
+BooleanNet/.idea/vcs.xml
+BooleanNet/.idea/modules.xml
+BooleanNet/.idea/misc.xml
+BooleanNet/.idea/inspectionProfiles/profiles_settings.xml
+BooleanNet/.idea/BooleanNet.iml
+BooleanNet/EMT_sim_comparison_heatmap_v2.ipynb
+BooleanNet/data/05_Stable motifs/StableMotifs_matrix.xlsx
+BooleanNet/data/05_Stable motifs/StableMotifs.xlsx
+BooleanNet/data/05_Stable motifs/SD_simplified_motif_based.graphml
+BooleanNet/data/05_Stable motifs/SD_reduced_simplified.graphml
+BooleanNet/data/05_Stable motifs/SD_reduced.graphml
+BooleanNet/data/05_Stable motifs/SD_motif_based_simplified.graphml
+BooleanNet/data/05_Stable motifs/SD_motif_based.graphml
+BooleanNet/data/05_Stable motifs/SD_bipartite_motif_based.graphml
+BooleanNet/data/05_Stable motifs/RulesFile.txt
+BooleanNet/data/05_Stable motifs/Motif_clustering.png
+BooleanNet/data/05_Stable motifs/Motif_clustering.html
+BooleanNet/data/05_Stable motifs/Expanded_network.graphml
+BooleanNet/data/05_Stable motifs/Attractors.txt
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/Trajectories.xlsx
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_ZEB2_E4_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_ZEB1_nuc_E12_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_ZEB1_cyto_E7_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_TWIST1_nuc_M1_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_TGFBR_M1_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_TGFBR_icd_E3_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_SOS_GRB2_M_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_SNAI2_nuc_E11_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_SNAI2_cyto_E8_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_SNAI1_nuc_M1_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_SNAI1_cyto_M1_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_SMAD_nuc_M1_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_SMAD_cyto_M1_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_NOTCH_ic_nuc_E16_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_NOTCH_ic_cyto_E1_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_NOTCH_E6_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_miR200_E10_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_MEK_E5_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_GSK3B_nuc_E15_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_GSK3B_cyto_M1_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_GLI_nuc_M1_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_GLI_cyto_E14_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_Ecadherin_I0_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_Ecadherin_CTF_E13_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_Dest_compl_E9_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_Bcatenin_nuc_M1_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_Bcatenin_memb_I0_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_AXIN2_nuc_E2_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_AXIN2_cyto_E2_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/pathway_activities/E_AKT_M1_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/Initial_states.xlsx
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/Final_states.xlsx
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/5 iterations 20000 steps/Attractor_states.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/Trajectories.xlsx
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/Initial_states.xlsx
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/Final_states.xlsx
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_ZEB2_E4_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_ZEB2_E13_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_ZEB1_nuc_E12_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_ZEB1_cyto_E7_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_ZEB1_cyto_E6_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_TWIST1_nuc_M1_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_TGFBR_M1_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_TGFBR_icd_E9_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_TGFBR_icd_E3_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_SOS_GRB2_M_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_SNAI2_nuc_E15_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_SNAI2_nuc_E11_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_SNAI2_cyto_E8_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_SNAI2_cyto_E3_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_SNAI1_nuc_M1_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_SNAI1_cyto_M1_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_SMAD_nuc_M1_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_SMAD_cyto_M1_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_NOTCH_ic_nuc_E16_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_NOTCH_ic_nuc_E10_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_NOTCH_ic_cyto_E2_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_NOTCH_ic_cyto_E1_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_NOTCH_E6_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_NOTCH_E1_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_miR200_E7_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_miR200_E10_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_MEK_E5_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_MEK_E11_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_GSK3B_nuc_E5_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_GSK3B_nuc_E15_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_GSK3B_cyto_M1_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_GLI_nuc_M1_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_GLI_cyto_E16_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_GLI_cyto_E14_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_Ecadherin_I0_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_Ecadherin_CTF_E14_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_Ecadherin_CTF_E13_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_Dest_compl_E9_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_Dest_compl_E8_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_Bcatenin_nuc_M1_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_Bcatenin_memb_I0_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_AXIN2_nuc_E4_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_AXIN2_nuc_E2_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_AXIN2_cyto_E4_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_AXIN2_cyto_E2_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/E_AKT_M1_pathway_plot.png
+BooleanNet/data/04_Simulations/01_Single cell/03_General asynchronous/03_KI or KO perturbation/25 iterations 20000 steps/20220101_heatmap.png
+BooleanNet/data/04_Simulations/01_Single cell/01_Synchronous/03_KI or KO perturbation/1 iteration 20000 steps/pathway_activities/E_AKT_M1_pertubation_pathway_activities.png
+BooleanNet/data/04_Simulations/01_Single cell/01_Synchronous/03_KI or KO perturbation/1 iteration 20000 steps/Attractor_states.png
+BooleanNet/data/trajectory_info.xlsx

@@ -1,6 +1,5 @@
 # importing necessary packages
 import os
-import re
 
 import numpy as np
 import pandas as pd
@@ -9,14 +8,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-def heatmap(final_states, attractors, folder, distance_from, omit=""):
-    if len(omit) != 0:
-        final_states = final_states.loc[:, ~final_states.columns.str.contains(omit + "_")]
+def heatmap(final_states, attractors, folder, distance_from):
 
-    pattern = "(_)(.*)(_)(.*)"
-
-    substring = [re.search(pattern, s).group(2) for s in final_states.columns]
-    final_states.columns = substring
+    final_states = final_states.loc[:, final_states.columns.str.startswith('E')]
 
     attractor_map = pd.concat([final_states, attractors[["E", "M"]]], axis=1)
 
@@ -33,6 +27,8 @@ def heatmap(final_states, attractors, folder, distance_from, omit=""):
     for col in attractor_map.columns:
         c_attr_data[col] = np.where(attractor_map[col] == attractor_map[distance_from], False, True)
 
+    c_attr_data.columns = c_attr_data.columns.str.replace("E_", "")
+
     # A4 heatmap
     a4_dims = (11.7, 8.27)
     f, axes = plt.subplots(1, 1, figsize=a4_dims)
@@ -42,7 +38,7 @@ def heatmap(final_states, attractors, folder, distance_from, omit=""):
     emt_hm = sns.heatmap(c_attr_data, cmap=cmap, annot=attr_data, linewidths=.5, linecolor='white', fmt='',
                          square=True, cbar_kws={"shrink": .8})
     emt_hm.set_ylabel('Nodes', fontsize=10)
-    emt_hm.set_xlabel('Perturbed nodes', fontsize=10)
+    emt_hm.set_xlabel('Perturbed nodes ( _ attractor name)', fontsize=10)
     emt_hm.set_title('Attractor states', fontsize=10, loc='left')
     emt_hm.set_xticklabels(emt_hm.get_xmajorticklabels(), fontsize=8, rotation=90)
     emt_hm.set_yticklabels(emt_hm.get_ymajorticklabels(), size=8)

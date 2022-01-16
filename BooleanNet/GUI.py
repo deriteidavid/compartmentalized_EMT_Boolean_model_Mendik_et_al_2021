@@ -350,7 +350,7 @@ class App(QMainWindow):
 
         # Create box containing heatmap settings
         self.heatmap_box = QGroupBox("Heatmap showing KI/KO perturbation results", self)
-        self.heatmap_box.setGeometry(QRect(1220, 520, 580, 110))
+        self.heatmap_box.setGeometry(QRect(1220, 520, 580, 60))
         self.heatmap_box.setFont(Bfont)
         self.heatmap_box.setAutoFillBackground(False)
         self.heatmap_box.setFlat(True)
@@ -359,22 +359,15 @@ class App(QMainWindow):
         self.heatmap_box.setStyleSheet("QGroupBox {border: 1px solid gray; border-radius: 5px;  }")
 
         self.dist_from_text = QLabel("Distance from", parent=self.heatmap_box)
-        self.dist_from_text.setGeometry(QRect(10, 30, 300, 25))
+        self.dist_from_text.setGeometry(QRect(10, 20, 300, 25))
         self.dist_from_combo = QComboBox(parent=self.heatmap_box)
-        self.dist_from_combo.setGeometry(QRect(275, 30, 300, 25))
+        self.dist_from_combo.setGeometry(QRect(275, 20, 300, 25))
         self.dist_from_combo.setToolTip("<td align='justify'; width=400><b>Initial state</b>  from which Hamming"
                                         " distance will be calculated and used in to order the histogram columns</td>")
 
-        self.omit_text = QLabel("Omit attractor perturbation", parent=self.heatmap_box)
-        self.omit_text.setGeometry(QRect(10, 70, 300, 25))
-        self.omit_combo = QComboBox(parent=self.heatmap_box)
-        self.omit_combo.setGeometry(QRect(275, 70, 300, 25))
-        self.omit_combo.setToolTip("<td align='justify'; width=400>Perturbations of <b>initial states</b>"
-                                   " omited from the histogram </td>")
-
         # Create box containing pathway activation visualization settings
         self.path_activ_box = QGroupBox("Pathway activation plot", self)
-        self.path_activ_box.setGeometry(QRect(1220, 640, 580, 60))
+        self.path_activ_box.setGeometry(QRect(1220, 590, 580, 60))
         self.path_activ_box.setFont(Bfont)
         self.path_activ_box.setAutoFillBackground(False)
         self.path_activ_box.setFlat(True)
@@ -396,7 +389,7 @@ class App(QMainWindow):
         self.run_button = QPushButton('Run simulation', self)
         self.run_button.clicked.connect(self.get_output)
         self.run_button.setShortcut('Ctrl+R')
-        self.run_button.setGeometry(QRect(1235, 710, 550, 30))
+        self.run_button.setGeometry(QRect(1235, 680, 550, 50))
         self.run_button.setEnabled(False)
         self.show()
 
@@ -455,9 +448,6 @@ class App(QMainWindow):
 
             self.init_file_table.setItem(rowPosition, 0, QTableWidgetItem(pheno))
             self.dist_from_combo.addItem(pheno)
-            self.omit_combo.addItem(pheno)
-        if self.omit_combo.currentText() == self.dist_from_combo.currentText():
-            self.omit_combo.setCurrentIndex(1)
 
         text = util.fopen(file, path)
 
@@ -593,10 +583,9 @@ class App(QMainWindow):
 
         if self.heatmap_box.isChecked():
             dist_from = self.dist_from_combo.currentText()
-            omit = self.omit_combo.currentText()
         else:
             dist_from = None
-            omit = None
+
         
         if self.path_activ_box.isChecked() and len(self.path_map_line.text()) != 0:
             node_to_pathway_map = self.path_map_line.text()
@@ -605,7 +594,7 @@ class App(QMainWindow):
 
         simulations.simulation(folder, init_files, sim_mode, perturb_type, perturb_comb, iterations, steps,
                                phenotype=phenotypes, attractor_file=attractor_file, noise=noise,
-                               perturbed_nodes=node_perturbations, dist_from=dist_from, omit=omit,
+                               perturbed_nodes=node_perturbations, dist_from=dist_from,
                                pathway_mapping_file=node_to_pathway_map)
         self.close()
 
