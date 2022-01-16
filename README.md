@@ -26,12 +26,17 @@ Modifications:
 - graphical user interface
 - addition of different updating schemes (e.g. weighted general asynchronous, random order asynchronous, weighted random order asynchronous)
 - implementation of short term perturbations to model noise and long term perturbations to model in silico KI/KO experiments
+- vizualization of EMT attractor state heatmap and pathway activation graph
+
+#### EMT heatmap
+For visualisation of stable states of the different EMT models after single node perturbations check the Heatmap showing KI/KO perturbation results box and define the settings.
+Produced figures (e.g. Supplementary Figure S1, S2, S3) show the results of single node KI/KO perturbations. On the heatmap each column represents the steady state (attractor) of the model where it stabilized after a one node perturbation. The column’s name is the perturbed node’s name. Each row shows a node in the model and one can assess its state in different perturbations. The nodes’ colour indicates if the node’s state corresponds to the epithelial or the mesenchymal attractor, blue colours are epithelial, whereas orange colours are mesenchymal node states. The text indicates the exact Boolean state of a node, either TRUE or FALSE.
+
+#### Pathway activation
+For visualisation of pathway activation due to KI/KO perturbation check the Pathway activation plot box and select an Excel file defining node to pathway mapping. Produced figures (e.g. Figure 5a) show time dependent average activation of main pathways due to single node KI/KO perturbations. In case of asynchronous update, x-axis values may not strictly correspond to simulation time steps, as steps where no node update happens are omitted from the analysis as they could lead to misleading results otherwise. The values on y-axis range from 0 to 1 with 0 meaning that all of the nodes mapping to said pathway are inactive (FALSE) at specific time step in all of the iterations, while 1 means that all of the nodes mapping to the pathway are active (TRUE) in all simulation iterations at the specified time step.
+
 ### Attractor repertoire and stable motif analysis
 This module contains two Jupyter notebooks, which contain the step-by-step analysis of identifying the attractors and stable motif succession of the original 19 node EMT model of Steinway et al. and the new 30 node compartmentalized EMT model respectively. The code is using the latest algorithms by Rozum et al. The original tool is available at: https://github.com/jcrozum/PyStableMotifs.
 
 ### Attractor probabilities
 The module contains code of for the numerical analysis for the stationary probability of the attractors in the presence of noise. The method uses a noisy update, scheme, where node updates can return the wrong node state with probability _p_. The models then are run for a large number of steps, initiated from each attractor state (which they can leave due to the noise) and finally the visitation probabilities are calculated from the simulation trajectories. The analysis is done in a step-by-step manner in a Jupyter notebook and summerized in an exported excel table.
-
-### EMT heatmap
-The module consists of a Jupyter notebook and data files that are needed for the visualisation of stable states of the different EMT models after single node perturbations.
-(Supplementary Figure S1, S2, S3) These figures show the results of single node KI/KO perturbations. On the heatmap each column represents the steady state (attractor) of the model where it stabilized after a one node perturbation. The column’s name is the perturbed node’s name. Each row shows a node in the model and one can assess its state in different perturbations. The nodes’ colour indicates if the node’s state corresponds to the epithelial or the mesenchymal attractor, blue colours are epithelial, whereas orange colours are mesenchymal node states. The text indicates the exact Boolean state of a node, either TRUE or FALSE.
